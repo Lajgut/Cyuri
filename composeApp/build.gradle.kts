@@ -56,6 +56,7 @@ kotlin {
             @OptIn(ExperimentalComposeLibrary::class)
             implementation(compose.components.resources)
             implementation(projects.shared)
+            implementation(libs.kotlin.coroutines.core)
         }
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)
