@@ -1,3 +1,5 @@
+@file:OptIn(ExperimentalResourceApi::class, ExperimentalResourceApi::class)
+
 package presentation
 
 import androidx.compose.foundation.background
@@ -14,6 +16,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import components.main.AboutTextComponent
 import components.main.MainCategoryComponent
+import org.jetbrains.compose.resources.ExperimentalResourceApi
+import org.jetbrains.compose.resources.getString
+import sampleproject.composeapp.generated.resources.Res
 
 @Composable
 fun MainScreen(modifier: Modifier) {
@@ -97,7 +102,6 @@ fun MainContent(
 fun SearchComponent(modifier: Modifier = Modifier) {
     var text by remember { mutableStateOf("") }
 
-
     Row(
         modifier = modifier.height(55.dp),
         horizontalArrangement = Arrangement.spacedBy(20.dp)
@@ -179,6 +183,7 @@ private fun AboutUs(modifier: Modifier = Modifier) {
     ) {
         Column {
             AboutTextComponent(text = "About us")
+            //AboutTextComponent(text = getString(Res.strings.app_name))
             AboutTextComponent(text = "Terms of use")
             AboutTextComponent(text = "All right reserved, LTD LTP and TD, 2020")
         }
