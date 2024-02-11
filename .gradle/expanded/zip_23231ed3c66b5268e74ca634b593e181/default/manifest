@@ -1,0 +1,10 @@
+abi_version=1.8.0
+builtins_platform=WASM
+compiler_version=1.9.21
+depends=kotlin
+ir_signature_versions=1,2
+jsOutputName=compose-multiplatform-core-compose-ui-ui-util-wasm-js
+metadata_version=1.4.1
+serializedIrFileFingerprints=3v8n26nxmcfi7.20ddg8lcuqx0d 37ybpbkhvo3wv.r18qtr3jy3xn 1vy0weztyus91.1qdc4ir1ivwqj
+serializedKlibFingerprint=vse7zpubwxq0.3ep785kj68lf9
+unique_name=org.jetbrains.compose.ui\:ui-util
