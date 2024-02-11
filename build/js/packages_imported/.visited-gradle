@@ -1,0 +1,81 @@
+{
+  "version": "9",
+  "items": {
+    "37b64ebf21c07bf0a43baa745f87cd1f": {
+      "src": "/Users/k.bitkov/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.runtime/runtime-wasm-js/1.6.0-dev1405/6f5d3153086e132bc99c0a38ac4a1c1ddf457c58/runtime-wasm-js-1.6.0-dev1405.klib"
+    },
+    "0939d34ac0965fb6bef1522a449a606a": {
+      "src": "/Users/k.bitkov/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.collection-internal/collection-wasm-js/1.6.0-dev1405/8f8c4d3dfd70371aa79eac61de6a6619c30f9a9e/collection-wasm-js-1.6.0-dev1405.klib"
+    },
+    "1c6fc0b4d51e510c7517b56b13805943": {
+      "src": "/Users/k.bitkov/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-wasm-js/0.23.1/f7046e9f5ce6014c3471098284bd654831bb1f41/atomicfu-wasm-js-0.23.1.klib"
+    },
+    "a17fdb4fafc8e13123c5926fe34c400e": {
+      "src": "/Users/k.bitkov/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-wasm-js/1.9.22/184ac1ecda4780e160cb3a52bd47ac922fcdd2c/kotlin-stdlib-wasm-js-1.9.22.klib"
+    },
+    "e115e36efd8fbc5908fa0f6a681a3400": {
+      "src": "/Users/k.bitkov/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.annotation-internal/annotation-wasm-js/1.8.0-alpha01/e49bd633e07741a6a9c9954a9e41e49d22e0d7cb/annotation-wasm-js-1.8.0-alpha01.klib"
+    },
+    "501aeec458033ad6cb31a41c6c012000": {
+      "src": "/Users/k.bitkov/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-wasm-js/1.8.0-RC2/29639c3732586a673744ed3b9c9e7935a7a146/kotlinx-coroutines-core-wasm-js-1.8.0-RC2.klib"
+    },
+    "642854db03a19c03314fe26d276713af": {
+      "src": "/Users/k.bitkov/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.foundation/foundation-wasm-js/1.6.0-dev1405/4919ab28bdfdadb159bee32c5b981197b0b0d42e/foundation-wasm-js-1.6.0-dev1405.klib"
+    },
+    "c98677f447951e3b9f11eea56d4d02e3": {
+      "src": "/Users/k.bitkov/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.animation/animation-wasm-js/1.6.0-dev1405/b7e82bd3511c25f1d47cbe6237e24bfe43f281fe/animation-wasm-js-1.6.0-dev1405.klib"
+    },
+    "eb0439124d6b3bd4b80b354951978899": {
+      "src": "/Users/k.bitkov/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.foundation/foundation-layout-wasm-js/1.6.0-dev1405/d1f023e51c33a7cd1bb24464a87e27c5f8929e49/foundation-layout-wasm-js-1.6.0-dev1405.klib"
+    },
+    "1064b021756d48c53fd0c26d3e724e0a": {
+      "src": "/Users/k.bitkov/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui-wasm-js/1.6.0-dev1405/f94fbdd8680347d46d1c778e054cde21eff9ad96/ui-wasm-js-1.6.0-dev1405.klib"
+    },
+    "9eb8c493f703ea4002b85251396794d8": {
+      "src": "/Users/k.bitkov/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui-text-wasm-js/1.6.0-dev1405/63e7c34fa8923365be88b70e3b857ecbf3572252/ui-text-wasm-js-1.6.0-dev1405.klib"
+    },
+    "fa0c5f5cd0ecbbeaf1f8adfa6206fbbd": {
+      "src": "/Users/k.bitkov/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.runtime/runtime-saveable-wasm-js/1.6.0-dev1405/6327ebeb068ea240e27c591c59b91b9baa272ff1/runtime-saveable-wasm-js-1.6.0-dev1405.klib"
+    },
+    "f6563233fc3f0f1c00df1ffa6b20d226": {
+      "src": "/Users/k.bitkov/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui-graphics-wasm-js/1.6.0-dev1405/3ec14038e296cc6b03adc9e1a7dd0367421b8cf9/ui-graphics-wasm-js-1.6.0-dev1405.klib"
+    },
+    "1a6194f2093a08f026fd0c8572474feb": {
+      "src": "/Users/k.bitkov/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui-unit-wasm-js/1.6.0-dev1405/2361be08aa171989cc30076592c5d6279f34fcac/ui-unit-wasm-js-1.6.0-dev1405.klib"
+    },
+    "ffde23330a867b92b76182b4c13b5079": {
+      "src": "/Users/k.bitkov/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui-geometry-wasm-js/1.6.0-dev1405/c847a01e0f8e8b84a76a9064542aff23cc4cb2c0/ui-geometry-wasm-js-1.6.0-dev1405.klib"
+    },
+    "e5694f42dd8a38594a241cab01b40ca2": {
+      "src": "/Users/k.bitkov/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui-util-wasm-js/1.6.0-dev1405/aa68c98868b44b79aef6e1c7101a3a79c4a26650/ui-util-wasm-js-1.6.0-dev1405.klib"
+    },
+    "8c9fbf1eb78ba67062d058757da5ca0b": {
+      "src": "/Users/k.bitkov/.gradle/caches/modules-2/files-2.1/org.jetbrains.skiko/skiko-wasm-js/0.7.90/94983ae2b193316d86cb7a111e0ac8b29636dd7/skiko-wasm-js-0.7.90.klib",
+      "target": "skiko-wasm-js/0.7.90"
+    },
+    "350d272881c19faddea8b9c7aa3a565c": {
+      "src": "/Users/k.bitkov/.gradle/caches/modules-2/files-2.1/org.jetbrains.skiko/skiko-js-wasm-runtime/0.7.90/f0d6a0c4a12306922cc340733f41b8c867fca24d/skiko-js-wasm-runtime-0.7.90.jar",
+      "target": "skiko-js-wasm-runtime/0.7.90"
+    },
+    "5da9ddee80d2e679d27a29ed00fa3ef7": {
+      "src": "/Users/k.bitkov/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.animation/animation-core-wasm-js/1.6.0-dev1405/546050dbf1f27f2ce1e1c75409eeb62e69951ac8/animation-core-wasm-js-1.6.0-dev1405.klib"
+    },
+    "5299e27d6d7ed2ffc2bd458cb55e861c": {
+      "src": "/Users/k.bitkov/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.material/material-wasm-js/1.6.0-dev1405/f7e9c70ddef6143aff5412deb0dff1c67a2c265a/material-wasm-js-1.6.0-dev1405.klib"
+    },
+    "7f0b638eccba490c6c915f25348cf48b": {
+      "src": "/Users/k.bitkov/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.material/material-ripple-wasm-js/1.6.0-dev1405/5e9267001d34372f4234f645beda2de081a6ac0b/material-ripple-wasm-js-1.6.0-dev1405.klib"
+    },
+    "f888e172715920c72d9674970298dfd6": {
+      "src": "/Users/k.bitkov/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.material/material-icons-core-wasm-js/1.6.0-dev1405/92e85b4ab529f0508281e5ce349805e0e7d900e9/material-icons-core-wasm-js-1.6.0-dev1405.klib"
+    },
+    "9383eb7341e47a8acfd3d74fcd5acae4": {
+      "src": "/Users/k.bitkov/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.components/components-resources-wasmJs/1.6.0-dev1405/f6dd982bd3dc2e8f74943be5a277223ed870f67f/library-wasm-js-1.6.0-dev1405.klib",
+      "target": "components-resources-wasmJs/1.6.0-dev1405"
+    },
+    "a66860f155cb10a237acb5f7d0f6d0e3": {
+      "src": "/Users/k.bitkov/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-js-runner/1.9.21/e9b1fc55af69eb09d63b271d17c217d9483241cc/kotlin-test-js-runner-1.9.21.jar",
+      "target": "kotlin-test-js-runner/0.0.1"
+    }
+  }
+}
