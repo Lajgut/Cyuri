@@ -1,5 +1,4 @@
-
-package presentation.main
+package presentation.home
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -13,41 +12,40 @@ import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import components.home.AboutTextComponent
-import components.home.MainCategoryComponent
+import presentation.components.home.AboutTextComponent
+import presentation.components.home.MainCategoryComponent
 
 @Composable
 fun HomeScreen(modifier: Modifier) {
-
     val isScrolled = remember { mutableStateOf(false) }
 
     Column(
         modifier = Modifier
             .background(color = MaterialTheme.colors.background),
-        ) {
+    ) {
         HeaderRow(
             modifier = modifier
                 .fillMaxWidth()
                 .padding(vertical = 20.dp)
         )
-            Spacer(
-                modifier = Modifier
-                    .height(0.5.dp)
-                    .fillMaxWidth()
-                    .alpha(if (isScrolled.value) 0.2f else 0f)
-                    .background(color = MaterialTheme.colors.primaryVariant),
-                )
-            MainContent(
-                defaultPaddingModifier = modifier,
-                isScrolled = isScrolled,
-                )
+        Spacer(
+            modifier = Modifier
+                .height(0.5.dp)
+                .fillMaxWidth()
+                .alpha(if (isScrolled.value) 0.2f else 0f)
+                .background(color = MaterialTheme.colors.primaryVariant),
+        )
+        MainContent(
+            defaultPaddingModifier = modifier,
+            isScrolled = isScrolled,
+        )
     }
 }
 
 @Composable
 fun HeaderRow(
     modifier: Modifier = Modifier,
-    ) {
+) {
     Row(
         modifier = modifier,
         horizontalArrangement = Arrangement.SpaceBetween
@@ -57,10 +55,10 @@ fun HeaderRow(
             style = MaterialTheme.typography.h5,
             color = MaterialTheme.colors.secondary,
             fontWeight = FontWeight.Bold,
-            )
+        )
         Text(
-            text = "Account",
-            style = MaterialTheme.typography.subtitle1
+            text = "Аккаунт",
+            style = MaterialTheme.typography.subtitle1,
         )
     }
 }
@@ -69,35 +67,34 @@ fun HeaderRow(
 fun MainContent(
     defaultPaddingModifier: Modifier,
     isScrolled: MutableState<Boolean>,
-    ) {
+) {
     val scrollState = rememberScrollState()
     isScrolled.value = scrollState.canScrollBackward
 
     Column(
         modifier = Modifier.verticalScroll(scrollState),
-        ) {
+    ) {
         Text(
             modifier = defaultPaddingModifier.padding(top = 40.dp),
-            text = "Entrust your problem\nto a professional",
+            text = "Доверьте ваши проблемы\nспециалисту",
             style = MaterialTheme.typography.h2,
             color = MaterialTheme.colors.primaryVariant,
             fontWeight = FontWeight.Bold,
-            )
-            SearchComponent(modifier = defaultPaddingModifier.padding(top = 30.dp, bottom = 40.dp))
-            Caterories(modifier = defaultPaddingModifier.padding(bottom = 30.dp))
-            AboutUs(
-                modifier = Modifier
-                    .background(color = MaterialTheme.colors.onBackground)
-                    .fillMaxWidth()
-                    .padding(horizontal = 330.dp, vertical = 20.dp)
-            )
+        )
+        SearchComponent(modifier = defaultPaddingModifier.padding(top = 30.dp, bottom = 40.dp))
+        Caterories(modifier = defaultPaddingModifier.padding(bottom = 30.dp))
+        AboutUs(
+            modifier = Modifier
+                .background(color = MaterialTheme.colors.onBackground)
+                .fillMaxWidth()
+                .padding(horizontal = 330.dp, vertical = 20.dp)
+        )
     }
 }
 
 @Composable
 fun SearchComponent(modifier: Modifier = Modifier) {
     var text by remember { mutableStateOf("") }
-
 
     Row(
         modifier = modifier.height(55.dp),
@@ -111,15 +108,15 @@ fun SearchComponent(modifier: Modifier = Modifier) {
             value = text,
             onValueChange = { text = it },
             textStyle = MaterialTheme.typography.h6,
-            placeholder = { Text("What kind of job are you need to do?") },
+            placeholder = { Text("С чем вам нужна помощь?") },
             colors = TextFieldDefaults.textFieldColors(
                 textColor = MaterialTheme.colors.primary,
                 placeholderColor = MaterialTheme.colors.primaryVariant,
                 backgroundColor = MaterialTheme.colors.onBackground,
                 focusedIndicatorColor = Color.Transparent,
                 unfocusedIndicatorColor = Color.Transparent,
-                ),
-            )
+            ),
+        )
 
         Button(
             modifier = Modifier
@@ -130,12 +127,12 @@ fun SearchComponent(modifier: Modifier = Modifier) {
                 backgroundColor = MaterialTheme.colors.secondary
             ),
             onClick = {},
-            ) {
+        ) {
             Text(
-                text = "Search",
+                text = "Поиск",
                 style = MaterialTheme.typography.h6,
                 color = MaterialTheme.colors.onPrimary,
-                )
+            )
         }
     }
 }
@@ -149,26 +146,26 @@ private fun Caterories(modifier: Modifier = Modifier) {
         "Lorem ipsum",
         "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
         "Lorem ipsum Lorem ipsum",
-        )
+    )
 
     Row(
         modifier = modifier.fillMaxWidth(),
         horizontalArrangement = Arrangement.SpaceBetween,
-        ) {
+    ) {
         MainCategoryComponent(title = list[0], imgRes = "category_mock_1.jpeg")
-            MainCategoryComponent(title = list[1], imgRes = "category_mock_2.jpg")
-            MainCategoryComponent(title = list[2], imgRes = "category_mock_1.jpeg")
-            MainCategoryComponent(title = list[3], imgRes = "category_mock_2.jpg")
+        MainCategoryComponent(title = list[1], imgRes = "category_mock_2.jpg")
+        MainCategoryComponent(title = list[2], imgRes = "category_mock_1.jpeg")
+        MainCategoryComponent(title = list[3], imgRes = "category_mock_2.jpg")
     }
 
     Row(
         modifier = modifier.fillMaxWidth(),
         horizontalArrangement = Arrangement.SpaceBetween,
-        ) {
+    ) {
         MainCategoryComponent(title = list[3], imgRes = "category_mock_1.jpeg")
-            MainCategoryComponent(title = list[4], imgRes = "category_mock_1.jpeg")
-            MainCategoryComponent(title = list[2], imgRes = "category_mock_2.jpg")
-            MainCategoryComponent(title = list[5], imgRes = "category_mock_1.jpeg")
+        MainCategoryComponent(title = list[4], imgRes = "category_mock_1.jpeg")
+        MainCategoryComponent(title = list[2], imgRes = "category_mock_2.jpg")
+        MainCategoryComponent(title = list[5], imgRes = "category_mock_1.jpeg")
     }
 }
 
@@ -179,19 +176,19 @@ private fun AboutUs(modifier: Modifier = Modifier) {
         horizontalArrangement = Arrangement.SpaceBetween
     ) {
         Column {
-            AboutTextComponent(text = "About us")
+            AboutTextComponent(text = "О нас")
             //AboutTextComponent(text = getString(Res.strings.app_name))
-            AboutTextComponent(text = "Terms of use")
-            AboutTextComponent(text = "All right reserved, LTD LTP and TD, 2020")
+            AboutTextComponent(text = "Пользовательское соглашение")
+            AboutTextComponent(text = "Все права защищены, LTD LTP and TD, 2020")
         }
 
         Column {
-            AboutTextComponent(text = "Our address")
+            AboutTextComponent(text = "Контакты")
             Text(
-                text = "support:\n+7 999 00 88",
+                text = "поддержка:\n+7 999 00 88",
                 style = MaterialTheme.typography.h6,
                 color = MaterialTheme.colors.primary,
-                )
+            )
         }
     }
 }

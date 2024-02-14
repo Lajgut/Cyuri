@@ -1,4 +1,4 @@
-package presentation.main
+package presentation.account
 
 import ru.mail.channel.voiceservice.presentation.base.ViewEvent
 import ru.mail.channel.voiceservice.presentation.base.ViewSideEffect
@@ -8,9 +8,7 @@ class HomeContract {
 
     data class UiState(
         val screenState: String,
-        //val assistantText: AssistantTextUiEntity,
-        //val suggests: SuggestListUiEntity,
-    ) : ViewState 
+    ) : ViewState
 
     sealed class Event : ViewEvent {
         data object HandleIntent : Event()

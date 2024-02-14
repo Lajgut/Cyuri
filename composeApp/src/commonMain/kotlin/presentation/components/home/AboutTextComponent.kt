@@ -1,4 +1,4 @@
-package components.home
+package presentation.components.home
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.MaterialTheme
