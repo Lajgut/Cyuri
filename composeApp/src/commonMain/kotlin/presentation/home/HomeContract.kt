@@ -4,7 +4,7 @@ import ru.mail.channel.voiceservice.presentation.base.ViewEvent
 import ru.mail.channel.voiceservice.presentation.base.ViewSideEffect
 import ru.mail.channel.voiceservice.presentation.base.ViewState
 
-class AccountContract {
+class HomeContract {
 
     data class UiState(
         val screenState: String,

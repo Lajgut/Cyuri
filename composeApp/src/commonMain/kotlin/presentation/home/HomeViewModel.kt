@@ -1,6 +1,6 @@
 package presentation.home
 
-import presentation.account.HomeContract
+import presentation.account.AccountContract
 import presentation.base.BaseViewModel
 import presentation.base.PoolDispatcher
 

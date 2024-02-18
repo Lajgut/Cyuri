@@ -8,6 +8,7 @@ import androidx.compose.ui.unit.dp
 import presentation.account.AccountScreen
 import presentation.home.HomeScreen
 import presentation.navigation.Destinations
+import presentation.orders.OrdersScreen
 import theme.AppTheme
 
 @Composable
@@ -23,7 +24,8 @@ fun App() {
             when (destination) {
                 Destinations.Home -> HomeScreen(webModifier) { destination = it }
                 Destinations.Account -> AccountScreen(webModifier) { destination = it }
-                Destinations.Orders -> TODO()
+                Destinations.OrdersHistory -> TODO()
+                Destinations.Order -> OrdersScreen(webModifier) { destination = it }
             }
         }
     }

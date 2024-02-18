@@ -31,12 +31,9 @@ fun AccountScreen(
         HeaderComponent(
             onLogoClick = { onScreenChanged(Destinations.Home) },
             onAccountClick = {},
-            onOrdersClick = { onScreenChanged(Destinations.Orders) }
+            onOrdersClick = { onScreenChanged(Destinations.OrdersHistory) }
         )
-        Column(
-            modifier = Modifier
-                .padding(top = 40.dp)
-        ) {
+        Column(modifier = Modifier.padding(top = 40.dp)) {
             Text(
                 text = "Профиль",
                 style = MaterialTheme.typography.h5,
@@ -48,66 +45,68 @@ fun AccountScreen(
                 .padding(vertical = 16.dp)
                 .fillMaxWidth(0.6f)
 
-            ProfileContent(modifier = contentModifier)
-            OrdersContent(modifier = contentModifier)
-        }
-    }
-}
-
-@Composable
-private fun ProfileContent(modifier: Modifier) {
-    AccountItemCard(modifier = modifier) {
-        Column(Modifier.padding(12.dp)) {
-            Text(
-                text = "Так вас видит специалист",
-                style = MaterialTheme.typography.subtitle1,
-                color = MaterialTheme.colors.primary,
-                fontWeight = FontWeight.Bold,
-            )
-            PhotoNameRow()
-        }
-    }
-}
-
-@Composable
-private fun OrdersContent(modifier: Modifier) {
-    AccountItemCard(modifier = modifier) {
-        Column(Modifier.padding(12.dp)) {
-            Text(
-                text = "Список ваших заказов",
-                style = MaterialTheme.typography.subtitle1,
-                color = MaterialTheme.colors.primary,
-                fontWeight = FontWeight.Bold,
-            )
-            PhotoNameRow()
+            ProfileCard(modifier = contentModifier)
+            LocationCard(modifier = contentModifier)
         }
     }
 }
 
 @OptIn(ExperimentalResourceApi::class)
 @Composable
-private fun PhotoNameRow() {
-    Row {
-        Image(
-            modifier = Modifier
-                .background(color = MaterialTheme.colors.onBackground)
-                .height(50.dp)
-                .width(50.dp)
-                .clip(RoundedCornerShape(20.dp)),
-            contentScale = ContentScale.FillBounds,
-            painter = painterResource(""),
-            contentDescription = null,
-        )
-
-        Column {
+private fun ProfileCard(modifier: Modifier) {
+    AccountItemCard(modifier = modifier) {
+        Column(modifier = Modifier.padding(12.dp)) {
             Text(
-                text = "Кирилл Битков",
-                style = MaterialTheme.typography.body2,
-                color = MaterialTheme.colors.primaryVariant,
+                text = "Так вас видит специалист",
+                style = MaterialTheme.typography.subtitle1,
+                color = MaterialTheme.colors.primary,
+                fontWeight = FontWeight.Bold,
+            )
+
+            Row(modifier = Modifier.padding(vertical = 16.dp)) {
+                Image(
+                    modifier = Modifier
+                        .height(50.dp)
+                        .width(50.dp)
+                        .clip(RoundedCornerShape(20.dp)),
+                    contentScale = ContentScale.Crop,
+                    painter = painterResource("composeResources/drawable/account_photo_mock.JPG"),
+                    contentDescription = null,
+                )
+
+                Column(modifier = Modifier.padding(horizontal = 12.dp)) {
+                    Text(
+                        text = "Кирилл Битков",
+                        style = MaterialTheme.typography.subtitle2,
+                        color = MaterialTheme.colors.primaryVariant,
+                        fontWeight = FontWeight.Bold,
+                    )
+
+                    Text(
+                        text = "+7 969 130 12 10",
+                        style = MaterialTheme.typography.body2,
+                        color = MaterialTheme.colors.primaryVariant,
+                    )
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun LocationCard(modifier: Modifier) {
+    AccountItemCard(modifier = modifier) {
+        Column(Modifier.padding(12.dp)) {
+            Text(
+                text = "Ваш Адрес",
+                style = MaterialTheme.typography.subtitle1,
+                color = MaterialTheme.colors.primary,
+                fontWeight = FontWeight.Bold,
             )
 
             Text(
-                text = "+7 969 130 12 10",
+                modifier = Modifier.padding(vertical = 16.dp),
+                text = "Dubai Motor city, Dubai autodrome turn 5 on the Pirelli name",
                 style = MaterialTheme.typography.body2,
                 color = MaterialTheme.colors.primaryVariant,
             )

@@ -5,7 +5,7 @@ import presentation.base.PoolDispatcher
 
 class AccountViewModel(
     poolDispatcher: PoolDispatcher
-): BaseViewModel<HomeContract.Event, HomeContract.UiState, HomeContract.SideEffect>(
+): BaseViewModel<AccountContract.Event, AccountContract.UiState, AccountContract.SideEffect>(
     poolDispatcher = poolDispatcher
 ) {
     

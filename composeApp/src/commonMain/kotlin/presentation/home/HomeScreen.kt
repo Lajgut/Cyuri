@@ -1,6 +1,7 @@
 package presentation.home
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -29,7 +30,7 @@ fun HomeScreen(
             modifier = modifier,
             onLogoClick = { onScreenChanged(Destinations.Home) },
             onAccountClick = { onScreenChanged(Destinations.Account) },
-            onOrdersClick = { onScreenChanged(Destinations.Orders) },
+            onOrdersClick = { onScreenChanged(Destinations.OrdersHistory) },
         )
         Spacer(
             modifier = modifier
@@ -41,6 +42,7 @@ fun HomeScreen(
         MainContent(
             modifier = modifier,
             isScrolled = isScrolled,
+            onScreenChanged = onScreenChanged,
         )
     }
 }
@@ -49,6 +51,7 @@ fun HomeScreen(
 fun MainContent(
     modifier: Modifier,
     isScrolled: MutableState<Boolean>,
+    onScreenChanged: (destination: Destinations) -> Unit,
 ) {
     val scrollState = rememberScrollState()
     isScrolled.value = scrollState.canScrollBackward
@@ -64,7 +67,7 @@ fun MainContent(
             fontWeight = FontWeight.Bold,
         )
         SearchComponent(modifier = modifier.padding(top = 30.dp, bottom = 40.dp))
-        Caterories(modifier = modifier.padding(bottom = 30.dp))
+        Caterories(modifier = modifier.padding(bottom = 30.dp), onScreenChanged = onScreenChanged)
         AboutUs(modifier = modifier)
     }
 }
@@ -115,7 +118,7 @@ fun SearchComponent(modifier: Modifier = Modifier) {
 }
 
 @Composable
-private fun Caterories(modifier: Modifier = Modifier) {
+private fun Caterories(modifier: Modifier = Modifier, onScreenChanged: (destination: Destinations) -> Unit) {
     val list = listOf(
         "Experienced IT specialists can help you with any computer problem",
         "Helps around the house",
@@ -129,20 +132,20 @@ private fun Caterories(modifier: Modifier = Modifier) {
         modifier = modifier.fillMaxWidth(),
         horizontalArrangement = Arrangement.SpaceBetween,
     ) {
-        MainCategoryComponent(title = list[0], imgRes = "composeResources/drawable/category_mock_1.png")
-        MainCategoryComponent(title = list[1], imgRes = "composeResources/drawable/category_mock_2.png")
-        MainCategoryComponent(title = list[2], imgRes = "composeResources/drawable/category_mock_1.png")
-        MainCategoryComponent(title = list[3], imgRes = "composeResources/drawable/category_mock_2.png")
+        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[0], imgRes = "composeResources/drawable/category_mock_1.png")
+        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[1], imgRes = "composeResources/drawable/category_mock_2.png")
+        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[2], imgRes = "composeResources/drawable/category_mock_1.png")
+        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[3], imgRes = "composeResources/drawable/category_mock_2.png")
     }
 
     Row(
         modifier = modifier.fillMaxWidth(),
         horizontalArrangement = Arrangement.SpaceBetween,
     ) {
-        MainCategoryComponent(title = list[3], imgRes = "composeResources/drawable/category_mock_1.png")
-        MainCategoryComponent(title = list[4], imgRes = "composeResources/drawable/category_mock_1.png")
-        MainCategoryComponent(title = list[2], imgRes = "composeResources/drawable/category_mock_2.png")
-        MainCategoryComponent(title = list[5], imgRes = "composeResources/drawable/category_mock_1.png")
+        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[3], imgRes = "composeResources/drawable/category_mock_1.png")
+        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[4], imgRes = "composeResources/drawable/category_mock_1.png")
+        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[2], imgRes = "composeResources/drawable/category_mock_2.png")
+        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[5], imgRes = "composeResources/drawable/category_mock_1.png")
     }
 }
 
