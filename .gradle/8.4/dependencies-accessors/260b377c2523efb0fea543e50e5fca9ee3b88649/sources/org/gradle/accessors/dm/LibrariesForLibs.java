@@ -519,7 +519,7 @@ public class LibrariesForLibs extends AbstractExternalDependencyFactory {
         public Provider<String> asProvider() { return getVersion("compose"); }
 
             /**
-             * Returns the version associated to this alias: compose.plugin (1.6.0-dev1405)
+             * Returns the version associated to this alias: compose.plugin (1.6.0-alpha01)
              * If the version is a rich version and that its not expressible as a
              * single version string, then an empty string is returned.
              * This version was declared in catalog libs.versions.toml

@@ -1,20 +1,22 @@
 package presentation.orders
 
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.interaction.collectIsFocusedAsState
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.fillMaxHeight
-import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.selection.selectable
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.input.pointer.PointerIcon
+import androidx.compose.ui.input.pointer.pointerHoverIcon
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import presentation.components.HeaderComponent
+import presentation.components.SelectableText
 import presentation.components.UserInfoComponent
 import presentation.navigation.Destinations
 
@@ -26,7 +28,7 @@ fun OrdersScreen(
     modifier: Modifier,
     onScreenChanged: (destination: Destinations) -> Unit,
 ) {
-    val selectedItemPosition = mutableIntStateOf(0)
+    val selectedItemPosition = mutableStateOf(0)
 
     Column(modifier = modifier) {
         HeaderComponent(
@@ -38,9 +40,11 @@ fun OrdersScreen(
         Row {
             CategoriesColumn(
                 modifier = Modifier.weight(1f),
-                selectedItemPosition = selectedItemPosition,
-            )
-            when (selectedItemPosition.intValue) {
+                selectedItemPosition = selectedItemPosition.value,
+            ) {
+                selectedItemPosition.value = it
+            }
+            when (selectedItemPosition.value) {
                 ORDER_DETAILS_POSITION -> OrderDetails(modifier = Modifier.weight(2f).fillMaxWidth())
                 EXPERTS_LIST_POSITION -> ExpertsList(modifier = Modifier.weight(2f).fillMaxWidth())
             }
@@ -51,24 +55,29 @@ fun OrdersScreen(
 @Composable
 private fun CategoriesColumn(
     modifier: Modifier,
-    selectedItemPosition: MutableIntState,
+    selectedItemPosition: Int,
+    onClick: (newPosition: Int) -> Unit,
 ) {
     Column(modifier = modifier) {
         SelectableText(
-            modifier = Modifier.fillMaxWidth(),
+            modifier = Modifier.fillMaxWidth().pointerHoverIcon(PointerIcon.Hand),
             text = "Разместить заказ",
-            isSelected = selectedItemPosition.value == ORDER_DETAILS_POSITION
-        ) {
-            selectedItemPosition.value = ORDER_DETAILS_POSITION
-        }
+            isSelected = selectedItemPosition == ORDER_DETAILS_POSITION,
+            onClick = { onClick(ORDER_DETAILS_POSITION) },
+            style = MaterialTheme.typography.subtitle1,
+            color = MaterialTheme.colors.primary,
+            fontWeight = FontWeight.Bold,
+        )
 
         SelectableText(
-            modifier = Modifier.fillMaxWidth(),
+            modifier = Modifier.fillMaxWidth().pointerHoverIcon(PointerIcon.Hand),
             text = "Выбор специалиста",
-            isSelected = selectedItemPosition.value == EXPERTS_LIST_POSITION
-        ) {
-            selectedItemPosition.value = EXPERTS_LIST_POSITION
-        }
+            isSelected = selectedItemPosition == EXPERTS_LIST_POSITION,
+            onClick = { onClick(EXPERTS_LIST_POSITION) },
+            style = MaterialTheme.typography.subtitle1,
+            color = MaterialTheme.colors.primary,
+            fontWeight = FontWeight.Bold,
+        )
     }
 }
 
@@ -102,29 +111,7 @@ private fun OrderDetails(modifier: Modifier) {
 
 @Composable
 private fun ExpertsList(modifier: Modifier) {
-    Column(modifier = modifier) {  }
-}
-
-@Composable
-private fun SelectableText(
-    modifier: Modifier,
-    text: String,
-    isSelected: Boolean,
-    onClick: () -> Unit,
-) {
-    val interactionSource = remember { MutableInteractionSource() }
-    val isFocused by interactionSource.collectIsFocusedAsState()
-
-    Text(
-        modifier = modifier
-            .selectable(
-                selected = isSelected,
-                enabled = true,
-                onClick = onClick,
-            ),
-        text = text,
-        style = MaterialTheme.typography.subtitle1,
-        color = MaterialTheme.colors.primary,
-        fontWeight = FontWeight.Bold,
-    )
+    Column(modifier = modifier) {
+        Text("text = test")
+    }
 }

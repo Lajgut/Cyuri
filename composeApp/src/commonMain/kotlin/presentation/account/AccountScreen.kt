@@ -16,6 +16,7 @@ import androidx.compose.ui.unit.dp
 import org.jetbrains.compose.resources.ExperimentalResourceApi
 import org.jetbrains.compose.resources.painterResource
 import presentation.components.HeaderComponent
+import presentation.components.UserInfoComponent
 import presentation.navigation.Destinations
 
 @Composable
@@ -63,32 +64,7 @@ private fun ProfileCard(modifier: Modifier) {
                 fontWeight = FontWeight.Bold,
             )
 
-            Row(modifier = Modifier.padding(vertical = 16.dp)) {
-                Image(
-                    modifier = Modifier
-                        .height(50.dp)
-                        .width(50.dp)
-                        .clip(RoundedCornerShape(20.dp)),
-                    contentScale = ContentScale.Crop,
-                    painter = painterResource("composeResources/drawable/account_photo_mock.JPG"),
-                    contentDescription = null,
-                )
-
-                Column(modifier = Modifier.padding(horizontal = 12.dp)) {
-                    Text(
-                        text = "Кирилл Битков",
-                        style = MaterialTheme.typography.subtitle2,
-                        color = MaterialTheme.colors.primaryVariant,
-                        fontWeight = FontWeight.Bold,
-                    )
-
-                    Text(
-                        text = "+7 969 130 12 10",
-                        style = MaterialTheme.typography.body2,
-                        color = MaterialTheme.colors.primaryVariant,
-                    )
-                }
-            }
+            UserInfoComponent()
         }
     }
 }
