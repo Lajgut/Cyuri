@@ -16,21 +16,21 @@ fun SelectableText(
     modifier: Modifier = Modifier,
     text: String,
     style: TextStyle,
-    color: Color,
-    fontWeight: FontWeight,
+    textColor: Color = Color.Unspecified,
+    fontWeight: FontWeight? = null,
     isSelected: Boolean,
     onClick: () -> Unit,
 ) {
     ClickableText(
         modifier = modifier
             .background(
-                color = if (isSelected) MaterialTheme.colors.onBackground else MaterialTheme.colors.onPrimary,
+                color = if (isSelected) MaterialTheme.colors.onBackground else MaterialTheme.colors.background,
                 shape = RoundedCornerShape(8.dp),
-            )
-            .padding(16.dp),
+            ),
         text = text,
         style = style,
-        color = color,
+        contentColor = MaterialTheme.colors.onBackground,
+        textColor = textColor,
         fontWeight = fontWeight,
         onClick = onClick,
     )

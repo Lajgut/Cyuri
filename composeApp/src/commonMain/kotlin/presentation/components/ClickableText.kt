@@ -1,7 +1,9 @@
 package presentation.components
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
-import androidx.compose.material.Text
+import androidx.compose.foundation.focusable
+import androidx.compose.material.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -15,17 +17,24 @@ fun ClickableText(
     modifier: Modifier = Modifier,
     text: String,
     style: TextStyle,
-    color: Color,
-    fontWeight: FontWeight,
+    textColor: Color = Color.Unspecified,
+    contentColor: Color = Color.Unspecified,
+    fontWeight: FontWeight? = null,
     onClick: () -> Unit,
 ) {
-    Text(
+    TextButton(
         modifier = modifier
-            .pointerHoverIcon(PointerIcon.Hand)
-            .clickable { onClick() },
-        text = text,
-        style = style,
-        color = color,
-        fontWeight = fontWeight,
-    )
+            .pointerHoverIcon(PointerIcon.Hand),
+        colors = ButtonDefaults.textButtonColors(
+            contentColor = contentColor,
+        ),
+        onClick = onClick,
+    ) {
+        Text(
+            text = text,
+            style = style,
+            color = textColor,
+            fontWeight = fontWeight,
+        )
+    }
 }

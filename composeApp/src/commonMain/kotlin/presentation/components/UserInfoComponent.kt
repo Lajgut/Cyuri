@@ -11,6 +11,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import org.jetbrains.compose.resources.DrawableResource
 import org.jetbrains.compose.resources.ExperimentalResourceApi
 import org.jetbrains.compose.resources.painterResource
 
@@ -24,7 +25,7 @@ fun UserInfoComponent(modifier: Modifier = Modifier) {
                 .width(50.dp)
                 .clip(RoundedCornerShape(20.dp)),
             contentScale = ContentScale.Crop,
-            painter = painterResource("composeResources/drawable/account_photo_mock.JPG"),
+            painter = painterResource(DrawableResource("composeResources/drawable/account_photo_mock.JPG")),
             contentDescription = null,
         )
 

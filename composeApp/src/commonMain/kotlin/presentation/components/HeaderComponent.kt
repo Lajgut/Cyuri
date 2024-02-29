@@ -1,13 +1,11 @@
 package presentation.components
 
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
-import androidx.compose.material.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -29,12 +27,12 @@ fun HeaderComponent(
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
-            Text(
-                modifier = Modifier.clickable { onLogoClick() },
+            ClickableText(
                 text = "Cyuri.ru",
                 style = MaterialTheme.typography.h5,
-                color = MaterialTheme.colors.secondary,
+                textColor = MaterialTheme.colors.secondary,
                 fontWeight = FontWeight.Bold,
+                onClick = onLogoClick
             )
 
             Text(
@@ -45,24 +43,18 @@ fun HeaderComponent(
         }
 
         Row(verticalAlignment = Alignment.CenterVertically) {
-            TextButton(
+            ClickableText(
                 modifier = Modifier.padding(horizontal = 20.dp),
+                text = "Ваши заказы",
+                style = MaterialTheme.typography.subtitle1,
                 onClick = onOrdersClick,
-            ) {
-                Text(
-                    text = "Ваши заказы",
-                    style = MaterialTheme.typography.subtitle1,
-                )
-            }
+            )
 
-            TextButton(
+            ClickableText(
                 onClick = onAccountClick,
-            ) {
-                Text(
-                    text = "Аккаунт",
-                    style = MaterialTheme.typography.subtitle1,
-                )
-            }
+                text = "Аккаунт",
+                style = MaterialTheme.typography.subtitle1,
+            )
         }
     }
 }

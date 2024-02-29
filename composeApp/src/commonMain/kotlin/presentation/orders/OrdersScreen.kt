@@ -1,11 +1,6 @@
 package presentation.orders
 
-import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
-import androidx.compose.foundation.interaction.MutableInteractionSource
-import androidx.compose.foundation.interaction.collectIsFocusedAsState
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.selection.selectable
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*
 import androidx.compose.runtime.*
@@ -13,10 +8,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.PointerIcon
 import androidx.compose.ui.input.pointer.pointerHoverIcon
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import presentation.components.HeaderComponent
 import presentation.components.SelectableText
+import presentation.components.SpacerGrayDefault
 import presentation.components.UserInfoComponent
 import presentation.navigation.Destinations
 
@@ -28,25 +25,33 @@ fun OrdersScreen(
     modifier: Modifier,
     onScreenChanged: (destination: Destinations) -> Unit,
 ) {
-    val selectedItemPosition = mutableStateOf(0)
+    var selectedItemPosition by remember { mutableStateOf(0) }
 
-    Column(modifier = modifier) {
+    Column(modifier = modifier.fillMaxSize()) {
         HeaderComponent(
             onLogoClick = { onScreenChanged(Destinations.Home) },
             onOrdersClick = { onScreenChanged(Destinations.OrdersHistory) },
             onAccountClick = { onScreenChanged(Destinations.Account) }
         )
 
-        Row {
+        Row(
+            horizontalArrangement = Arrangement.spacedBy(60.dp)
+        ) {
             CategoriesColumn(
-                modifier = Modifier.weight(1f),
-                selectedItemPosition = selectedItemPosition.value,
+                modifier = Modifier.weight(4f),
+                selectedItemPosition = selectedItemPosition,
             ) {
-                selectedItemPosition.value = it
+                selectedItemPosition = it
             }
-            when (selectedItemPosition.value) {
-                ORDER_DETAILS_POSITION -> OrderDetails(modifier = Modifier.weight(2f).fillMaxWidth())
-                EXPERTS_LIST_POSITION -> ExpertsList(modifier = Modifier.weight(2f).fillMaxWidth())
+            val contentModifier = remember {
+                Modifier
+                    .weight(9f)
+                    .fillMaxWidth()
+            }
+
+            when (selectedItemPosition) {
+                ORDER_DETAILS_POSITION -> OrderDetails(modifier = contentModifier)
+                EXPERTS_LIST_POSITION -> ExpertsList(modifier = contentModifier)
             }
         }
     }
@@ -65,7 +70,7 @@ private fun CategoriesColumn(
             isSelected = selectedItemPosition == ORDER_DETAILS_POSITION,
             onClick = { onClick(ORDER_DETAILS_POSITION) },
             style = MaterialTheme.typography.subtitle1,
-            color = MaterialTheme.colors.primary,
+            textColor = MaterialTheme.colors.primary,
             fontWeight = FontWeight.Bold,
         )
 
@@ -75,7 +80,7 @@ private fun CategoriesColumn(
             isSelected = selectedItemPosition == EXPERTS_LIST_POSITION,
             onClick = { onClick(EXPERTS_LIST_POSITION) },
             style = MaterialTheme.typography.subtitle1,
-            color = MaterialTheme.colors.primary,
+            textColor = MaterialTheme.colors.primary,
             fontWeight = FontWeight.Bold,
         )
     }
@@ -86,9 +91,17 @@ private fun OrderDetails(modifier: Modifier) {
     var text by remember { mutableStateOf("") }
 
     Column(modifier = modifier) {
-        Text(text = "Что нужно сделать?")
+        Text(
+            modifier = Modifier,
+            text = "Что нужно сделать?",
+            style = MaterialTheme.typography.h4,
+            fontWeight = FontWeight.Bold,
+        )
 
         TextField(
+            modifier = Modifier
+                .fillMaxWidth()
+                .heightIn(min = 200.dp),
             shape = RoundedCornerShape(8.dp),
             value = text,
             onValueChange = { text = it },
@@ -97,14 +110,14 @@ private fun OrderDetails(modifier: Modifier) {
             colors = TextFieldDefaults.textFieldColors(
                 textColor = MaterialTheme.colors.primary,
                 placeholderColor = MaterialTheme.colors.primaryVariant,
-                backgroundColor = MaterialTheme.colors.onPrimary,
+                backgroundColor = MaterialTheme.colors.onBackground,
                 focusedIndicatorColor = Color.Transparent,
                 unfocusedIndicatorColor = Color.Transparent,
             ),
         )
 
         Card(backgroundColor = MaterialTheme.colors.onPrimary) {
-            UserInfoComponent()
+            UserInfoComponent(modifier = Modifier.fillMaxWidth())
         }
     }
 }

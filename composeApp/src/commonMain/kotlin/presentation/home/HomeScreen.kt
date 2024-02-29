@@ -9,11 +9,11 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import presentation.components.HeaderComponent
+import presentation.components.SpacerGrayDefault
 import presentation.components.home.AboutTextComponent
 import presentation.components.home.MainCategoryComponent
 import presentation.navigation.Destinations
@@ -32,13 +32,7 @@ fun HomeScreen(
             onAccountClick = { onScreenChanged(Destinations.Account) },
             onOrdersClick = { onScreenChanged(Destinations.OrdersHistory) },
         )
-        Spacer(
-            modifier = modifier
-                .height(0.5.dp)
-                .fillMaxWidth()
-                .alpha(if (isScrolled.value) 0.2f else 0f)
-                .background(color = MaterialTheme.colors.primaryVariant),
-        )
+        SpacerGrayDefault(shouldHide = isScrolled.value)
         MainContent(
             modifier = modifier,
             isScrolled = isScrolled,
