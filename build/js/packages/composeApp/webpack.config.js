@@ -27,7 +27,7 @@ config.output = {
 };
     // source maps
     config.module.rules.push({
-            test: /\.js$/,
+            test: /\.m?js$/,
             use: ["source-map-loader"],
             enforce: "pre"
     });

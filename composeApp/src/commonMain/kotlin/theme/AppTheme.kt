@@ -14,7 +14,8 @@ fun AppTheme(
     content: @Composable () -> Unit
 ) {
     val colorPalette = if (isSystemInDarkTheme()) {
-        darkThemeColors
+        //darkThemeColors
+        lightThemeColors
     } else {
         lightThemeColors
     }

@@ -1,0 +1,10 @@
+abi_version=1.8.0
+builtins_platform=WASM
+compiler_version=1.9.21
+depends=org.jetbrains.compose.ui\:ui org.jetbrains.compose.runtime\:runtime-saveable org.jetbrains.compose.runtime\:runtime org.jetbrains.compose.ui\:ui-util org.jetbrains.compose.ui\:ui-text org.jetbrains.compose.ui\:ui-graphics org.jetbrains.compose.ui\:ui-unit org.jetbrains.compose.ui\:ui-geometry kotlin org.jetbrains.skiko\:skiko
+ir_signature_versions=1,2
+jsOutputName=compose-multiplatform-core-compose-foundation-foundation-layout-wasm-js
+metadata_version=1.4.1
+serializedIrFileFingerprints=2o7omg2c8yr7j.1od0vedx7yhkz 1hvbk61yqy0v2.3jmh3av016y68 25gt7bpbwg0nk.3ruj90d4tec6k xbjk61l8y0n1.30f1izwrp53c4 2nm31hehzewxw.2v4xhhuj8oodv 3fufuwo9v0ttn.1i7rbigdv6i90 10ekp7hb31y3h.122h9p4foh20p 306olnxxrgb9i.2pd1ww4877guw 2v15ylff03aj0.2txlhmdjkgny0 2yfkk0k9yffnz.u4mjxricc1e2 2nfbfuuiukq3w.vzk5kp82sq6o 32gpk0ry2ldum.2wlxdr3z3rjyd 5a0k5x4hcu01.27m5e8k89rjty 3kmsec8gdtc1p.2mku79m4raqsq 1e5neud73rm4a.3kaypt7ynompo 1hpp5sji1pa6b.cnir1k31abv0 304bvnvg2y22q.1jc29ajej5141 1bh00nnusgnvr.1io0bfcb9xrxa ibq3pb00f4lv.1o3rej7mzionn 3vobic1vdk3ae.2hpvqb3sjibes 3ljmsq1xqltpx.2pje3d1bu5oem 3n1k2ifyuhw0q.s6snl37dvco2 209wjti07pidn.jucgzn2idp6j 25wz8mnczewrd.14zf11k9fupny
+serializedKlibFingerprint=dxhzcsig1xp.bft9ria8jca8
+unique_name=org.jetbrains.compose.foundation\:foundation-layout

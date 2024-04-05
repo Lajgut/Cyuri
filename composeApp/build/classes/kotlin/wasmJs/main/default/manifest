@@ -1,10 +1,10 @@
 abi_version=1.8.0
 builtins_platform=WASM
-compiler_version=1.9.21
+compiler_version=1.9.23
 depends=components.resources\:library org.jetbrains.compose.material\:material org.jetbrains.compose.material\:material-ripple org.jetbrains.compose.foundation\:foundation org.jetbrains.compose.animation\:animation org.jetbrains.compose.animation\:animation-core org.jetbrains.kotlinx\:kotlinx-coroutines-core org.jetbrains.kotlinx\:atomicfu org.jetbrains.compose.material\:material-icons-core org.jetbrains.compose.foundation\:foundation-layout org.jetbrains.compose.ui\:ui org.jetbrains.compose.runtime\:runtime-saveable kotlin org.jetbrains.compose.runtime\:runtime org.jetbrains.compose.ui\:ui-text org.jetbrains.compose.ui\:ui-graphics org.jetbrains.compose.ui\:ui-unit org.jetbrains.skiko\:skiko org.jetbrains.compose.ui\:ui-geometry org.jetbrains.compose.ui\:ui-util
 ir_signature_versions=1,2
 jsOutputName=composeApp
 metadata_version=1.4.1
-serializedIrFileFingerprints=n7hc6xwcc8ub.24tingla42sh3 14uimxeqsi5qj.3es8m23s0d9l4 3rsnedblsupx0.2u0qff372f3q8 4xpxgoxipixm.2ee5y1ur5zjvz 498nneuuntbj.36vwyj6jsmgby z2wcfgm8dd9m.2bhqoz2bdppnp 29bxtcmxzssfc.3rbavddvnz40y 206tg7r0ra1nx.347wsqjh6pegf 2v4vwc319pf32.3tqnrdwyjjwkn 96ta4z4putab.21q4loa5snthh 2w19jnkyl3bs0.mi3zi0lk18bk 18mldbk8f4lz1.3ovdjtyec3wki 3s9ab28w1y2o7.sr3wrn4faq6e 2onq3brfhu8au.1cm5snxg0ft8j 1jgqvb2qxlfti.xgmk54cgj77u 3ov8uozmp8mco.1dagayvbni23v 27hhax8cfc6o6.14n22ae4in4ua
-serializedKlibFingerprint=3bxp76e3plnvm.3bbw1fwjdgysu
+serializedIrFileFingerprints=1fe377luuv6p.3u2y8n050xfda ji0g3pt0blny.3vs91glyvdytw 3rsnedblsupx0.2u0qff372f3q8 3t2c3d1naaexc.wyab43y97gyy 3vhp0q78226yp.5d3teb6i0oab 3h9pl41gx2yso.2vgjbbovviejo z2wcfgm8dd9m.2bhqoz2bdppnp 1dh3gqgjj064z.12ijfctc1m3jb 25cc817ndlc8f.cfryy70c1xpm 1rmywjxvd1c9n.hk05maaceqo5 1pkz35um40cm4.3670i23vlv212 euahapkiyx9s.3jkn24fg2lfkt 1eopzkjfkotsr.31nwd1vu7inyh 2y0qcij164wxs.1nm4p179l0fgi 3ljrc2paru05e.3vtj05oee1jlc 20mmo7sgt6ot3.2uo4055c51sgp etqj5ygjsd6q.1dbx97m2vwk2w 1g37y71bwptzb.123sxb4u619mr 37mo7gvkq4tk4.1tne3rbtepf1o 3hrtcxcltwfy2.2hkacq0sme83w 2c812qpze47i9.3jbj594ipkugr 1ipoa9qx8n9ub.23kur2az3hjhx pgein3mrik5k.3ia6akxlutd16 1udokgfbc1rxv.3fze2t9aok6a1 qgz89tdnc04b.1rhw4zsda2i1n 2ot73d36dum8a.32sfjgkzd69l0 1jgqvb2qxlfti.xgmk54cgj77u 1wqjpqn7kr7ce.38udrnu5mptqp 27hhax8cfc6o6.14n22ae4in4ua
+serializedKlibFingerprint=3ko37nnnqflm.3484hgwsd5o4o
 unique_name=Cyuri\:composeApp

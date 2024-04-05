@@ -1,0 +1,10 @@
+abi_version=1.8.0
+builtins_platform=WASM
+compiler_version=1.9.21
+depends=org.jetbrains.compose.foundation\:foundation org.jetbrains.compose.animation\:animation org.jetbrains.compose.foundation\:foundation-layout org.jetbrains.compose.ui\:ui org.jetbrains.compose.runtime\:runtime-saveable org.jetbrains.compose.runtime\:runtime org.jetbrains.compose.ui\:ui-util org.jetbrains.compose.ui\:ui-text org.jetbrains.compose.ui\:ui-graphics org.jetbrains.compose.animation\:animation-core org.jetbrains.compose.ui\:ui-unit org.jetbrains.compose.ui\:ui-geometry org.jetbrains.skiko\:skiko org.jetbrains.kotlinx\:kotlinx-coroutines-core org.jetbrains.kotlinx\:atomicfu kotlin
+ir_signature_versions=1,2
+jsOutputName=compose-multiplatform-core-compose-material-material-ripple-wasm-js
+metadata_version=1.4.1
+serializedIrFileFingerprints=16dvstwp5ly3n.1p12nx4z6b0ts 199opulyn0i50.2lqrz0zcf98v5 3k55vyk5txxya.18gsi5bo0ggj7 21unmysvndtbq.ylmy9z0cfau6 32o3q3g6aovr2.mnbb96a30jg7
+serializedKlibFingerprint=3q39amq6lr7jo.2ve1c9mlthto1
+unique_name=org.jetbrains.compose.material\:material-ripple
