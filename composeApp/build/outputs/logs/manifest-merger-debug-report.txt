@@ -1,0 +1,298 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml:2:1-23:12
+MERGED from [androidx.activity:activity:1.8.2] /Users/k.bitkov/.gradle/caches/transforms-3/96419f3c78fb1089a4a87605d7c9478a/transformed/activity-1.8.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.2] /Users/k.bitkov/.gradle/caches/transforms-3/ae8b94dae40fb9ade156d14ff526b8e6/transformed/activity-ktx-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [org.jetbrains.compose.components:components-resources-android:1.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/f46974773ac033ee4e93b3f376db5a67/transformed/library-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/5383a2da91a6ce7436bd46bf335ed80f/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/984f02af058af8ca04e2cb1ca521e76f/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/dba1961c8faeb402d3c3d19f303b0681/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/39caf1b9de7426bf05a7aa8ffbf8a297/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/d071a6d94a687c30632f828d0e1037e6/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/4770bdd115ee6bfcb671b8370ebdc72f/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/70abf8e9e8d0dbdc677a3a41b73953e9/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/39ddfe34e6e33a7ddba712595e87371c/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/3753e9c7c21793dc9348daf9785ab6ac/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/b5f88f2192a0a44e90ad3d882641ced2/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/5d7593fca0cb4fdb05bb683f4dffe8bd/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/ac78a633baa1ad94045a069c4f583e81/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/7d3a197731b6bf5811cd7c327b4c4211/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/cee26e87cc81c2fa0d672b64c51cb96a/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/e495452c077c1e87c22e2312087ac86a/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity-compose:1.8.2] /Users/k.bitkov/.gradle/caches/transforms-3/8e792c1d986ffaa5b759f18e9322b042/transformed/activity-compose-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/3401003d534f1874d4705e8c4e2a1f82/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/k.bitkov/.gradle/caches/transforms-3/a04f0952fa7bc0d9633f053ddac49e4c/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/k.bitkov/.gradle/caches/transforms-3/29d94cafb5642299fe1ce4cf78c1e4a5/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/a39dccac9e061adc1a37dfa82cdc4809/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/71475ac55f7d9f50c8ba89a2942824c6/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/fb00afee79e02b5667b15feca7fcf679/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/3fb9517e407111e49960ca2183ced758/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/k.bitkov/.gradle/caches/transforms-3/254f33eaad73763edd5cdb4c85f084a6/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/k.bitkov/.gradle/caches/transforms-3/e8c5acd5606fc01320df6f98cd7bfbed/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/k.bitkov/.gradle/caches/transforms-3/f8d6543d07bd085ea471f9b5a90ab715/transformed/core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.12.0] /Users/k.bitkov/.gradle/caches/transforms-3/5232e8dfbfaf4230d9c8db74ae8f9c10/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/6ce34453f41a7f7c9838eb41581e318f/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/7bc788846aea00e03623bf7a09dbdc2b/transformed/lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/f9bed53acf484bb7d193ccfc2ea7899e/transformed/lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/e11ff27fb37450a0c1190a28a5bfaf99/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/d150a26054026b77711d03474478d8f2/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/0a1c134935acfe68ca87d4b024ffbe81/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/k.bitkov/.gradle/caches/transforms-3/a88df5ae7ef8caf06d3a6bd0bc283651/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/ff3819b5ad97d01d5995945bc57f3a01/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/e4d1598a96ae300811e6b99a408fde71/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/k.bitkov/.gradle/caches/transforms-3/8a260700fd1172c57c135c83c4e687e6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/k.bitkov/.gradle/caches/transforms-3/b480fc78dcf5156312de0e339c16e10a/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/k.bitkov/.gradle/caches/transforms-3/e3aa151a568e7e57311e7cbe633fd23b/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/k.bitkov/.gradle/caches/transforms-3/b32b705aafdf8f97988bd7fe4efb1a9c/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml:4:5-21:19
+INJECTED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml:4:5-21:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/e495452c077c1e87c22e2312087ac86a/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/e495452c077c1e87c22e2312087ac86a/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/a39dccac9e061adc1a37dfa82cdc4809/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/a39dccac9e061adc1a37dfa82cdc4809/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/71475ac55f7d9f50c8ba89a2942824c6/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/71475ac55f7d9f50c8ba89a2942824c6/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] /Users/k.bitkov/.gradle/caches/transforms-3/5232e8dfbfaf4230d9c8db74ae8f9c10/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /Users/k.bitkov/.gradle/caches/transforms-3/5232e8dfbfaf4230d9c8db74ae8f9c10/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/k.bitkov/.gradle/caches/transforms-3/a88df5ae7ef8caf06d3a6bd0bc283651/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/k.bitkov/.gradle/caches/transforms-3/a88df5ae7ef8caf06d3a6bd0bc283651/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/e4d1598a96ae300811e6b99a408fde71/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/e4d1598a96ae300811e6b99a408fde71/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/k.bitkov/.gradle/caches/transforms-3/8a260700fd1172c57c135c83c4e687e6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/k.bitkov/.gradle/caches/transforms-3/8a260700fd1172c57c135c83c4e687e6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /Users/k.bitkov/.gradle/caches/transforms-3/5232e8dfbfaf4230d9c8db74ae8f9c10/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml:7:9-41
+	android:roundIcon
+		ADDED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml:8:9-54
+	android:icon
+		ADDED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml:6:9-43
+	android:allowBackup
+		ADDED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml:5:9-35
+	android:theme
+		ADDED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml:10:9-72
+activity#com.bravekitty.cyuri.MainActivity
+ADDED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml:11:9-20:20
+	android:exported
+		ADDED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml:12:13-36
+	android:configChanges
+		ADDED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml:13:13-225
+	android:name
+		ADDED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml:14:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml
+MERGED from [androidx.activity:activity:1.8.2] /Users/k.bitkov/.gradle/caches/transforms-3/96419f3c78fb1089a4a87605d7c9478a/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] /Users/k.bitkov/.gradle/caches/transforms-3/96419f3c78fb1089a4a87605d7c9478a/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /Users/k.bitkov/.gradle/caches/transforms-3/ae8b94dae40fb9ade156d14ff526b8e6/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /Users/k.bitkov/.gradle/caches/transforms-3/ae8b94dae40fb9ade156d14ff526b8e6/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.components:components-resources-android:1.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/f46974773ac033ee4e93b3f376db5a67/transformed/library-release/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.components:components-resources-android:1.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/f46974773ac033ee4e93b3f376db5a67/transformed/library-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/5383a2da91a6ce7436bd46bf335ed80f/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/5383a2da91a6ce7436bd46bf335ed80f/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/984f02af058af8ca04e2cb1ca521e76f/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/984f02af058af8ca04e2cb1ca521e76f/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/dba1961c8faeb402d3c3d19f303b0681/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/dba1961c8faeb402d3c3d19f303b0681/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/39caf1b9de7426bf05a7aa8ffbf8a297/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/39caf1b9de7426bf05a7aa8ffbf8a297/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/d071a6d94a687c30632f828d0e1037e6/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/d071a6d94a687c30632f828d0e1037e6/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/4770bdd115ee6bfcb671b8370ebdc72f/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/4770bdd115ee6bfcb671b8370ebdc72f/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/70abf8e9e8d0dbdc677a3a41b73953e9/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/70abf8e9e8d0dbdc677a3a41b73953e9/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/39ddfe34e6e33a7ddba712595e87371c/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/39ddfe34e6e33a7ddba712595e87371c/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/3753e9c7c21793dc9348daf9785ab6ac/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/3753e9c7c21793dc9348daf9785ab6ac/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/b5f88f2192a0a44e90ad3d882641ced2/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/b5f88f2192a0a44e90ad3d882641ced2/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/5d7593fca0cb4fdb05bb683f4dffe8bd/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/5d7593fca0cb4fdb05bb683f4dffe8bd/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/ac78a633baa1ad94045a069c4f583e81/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/ac78a633baa1ad94045a069c4f583e81/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/7d3a197731b6bf5811cd7c327b4c4211/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/7d3a197731b6bf5811cd7c327b4c4211/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/cee26e87cc81c2fa0d672b64c51cb96a/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/cee26e87cc81c2fa0d672b64c51cb96a/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/e495452c077c1e87c22e2312087ac86a/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/e495452c077c1e87c22e2312087ac86a/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] /Users/k.bitkov/.gradle/caches/transforms-3/8e792c1d986ffaa5b759f18e9322b042/transformed/activity-compose-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] /Users/k.bitkov/.gradle/caches/transforms-3/8e792c1d986ffaa5b759f18e9322b042/transformed/activity-compose-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/3401003d534f1874d4705e8c4e2a1f82/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/3401003d534f1874d4705e8c4e2a1f82/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/k.bitkov/.gradle/caches/transforms-3/a04f0952fa7bc0d9633f053ddac49e4c/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/k.bitkov/.gradle/caches/transforms-3/a04f0952fa7bc0d9633f053ddac49e4c/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/k.bitkov/.gradle/caches/transforms-3/29d94cafb5642299fe1ce4cf78c1e4a5/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/k.bitkov/.gradle/caches/transforms-3/29d94cafb5642299fe1ce4cf78c1e4a5/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/a39dccac9e061adc1a37dfa82cdc4809/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/a39dccac9e061adc1a37dfa82cdc4809/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/71475ac55f7d9f50c8ba89a2942824c6/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/71475ac55f7d9f50c8ba89a2942824c6/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/fb00afee79e02b5667b15feca7fcf679/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/fb00afee79e02b5667b15feca7fcf679/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/3fb9517e407111e49960ca2183ced758/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/3fb9517e407111e49960ca2183ced758/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/k.bitkov/.gradle/caches/transforms-3/254f33eaad73763edd5cdb4c85f084a6/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/k.bitkov/.gradle/caches/transforms-3/254f33eaad73763edd5cdb4c85f084a6/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/k.bitkov/.gradle/caches/transforms-3/e8c5acd5606fc01320df6f98cd7bfbed/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/k.bitkov/.gradle/caches/transforms-3/e8c5acd5606fc01320df6f98cd7bfbed/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/k.bitkov/.gradle/caches/transforms-3/f8d6543d07bd085ea471f9b5a90ab715/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/k.bitkov/.gradle/caches/transforms-3/f8d6543d07bd085ea471f9b5a90ab715/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.12.0] /Users/k.bitkov/.gradle/caches/transforms-3/5232e8dfbfaf4230d9c8db74ae8f9c10/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /Users/k.bitkov/.gradle/caches/transforms-3/5232e8dfbfaf4230d9c8db74ae8f9c10/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/6ce34453f41a7f7c9838eb41581e318f/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/6ce34453f41a7f7c9838eb41581e318f/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/7bc788846aea00e03623bf7a09dbdc2b/transformed/lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/7bc788846aea00e03623bf7a09dbdc2b/transformed/lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/f9bed53acf484bb7d193ccfc2ea7899e/transformed/lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/f9bed53acf484bb7d193ccfc2ea7899e/transformed/lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/e11ff27fb37450a0c1190a28a5bfaf99/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/e11ff27fb37450a0c1190a28a5bfaf99/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/d150a26054026b77711d03474478d8f2/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/d150a26054026b77711d03474478d8f2/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/0a1c134935acfe68ca87d4b024ffbe81/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/0a1c134935acfe68ca87d4b024ffbe81/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/k.bitkov/.gradle/caches/transforms-3/a88df5ae7ef8caf06d3a6bd0bc283651/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/k.bitkov/.gradle/caches/transforms-3/a88df5ae7ef8caf06d3a6bd0bc283651/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/ff3819b5ad97d01d5995945bc57f3a01/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/ff3819b5ad97d01d5995945bc57f3a01/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/e4d1598a96ae300811e6b99a408fde71/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/e4d1598a96ae300811e6b99a408fde71/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/k.bitkov/.gradle/caches/transforms-3/8a260700fd1172c57c135c83c4e687e6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/k.bitkov/.gradle/caches/transforms-3/8a260700fd1172c57c135c83c4e687e6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/k.bitkov/.gradle/caches/transforms-3/b480fc78dcf5156312de0e339c16e10a/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/k.bitkov/.gradle/caches/transforms-3/b480fc78dcf5156312de0e339c16e10a/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/k.bitkov/.gradle/caches/transforms-3/e3aa151a568e7e57311e7cbe633fd23b/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/k.bitkov/.gradle/caches/transforms-3/e3aa151a568e7e57311e7cbe633fd23b/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/k.bitkov/.gradle/caches/transforms-3/b32b705aafdf8f97988bd7fe4efb1a9c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/k.bitkov/.gradle/caches/transforms-3/b32b705aafdf8f97988bd7fe4efb1a9c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/k.bitkov/Developer/kmp/Cyuri/composeApp/src/androidMain/AndroidManifest.xml
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/e495452c077c1e87c22e2312087ac86a/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/e495452c077c1e87c22e2312087ac86a/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.3] /Users/k.bitkov/.gradle/caches/transforms-3/e495452c077c1e87c22e2312087ac86a/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/a39dccac9e061adc1a37dfa82cdc4809/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/71475ac55f7d9f50c8ba89a2942824c6/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/71475ac55f7d9f50c8ba89a2942824c6/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/e4d1598a96ae300811e6b99a408fde71/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/e4d1598a96ae300811e6b99a408fde71/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/k.bitkov/.gradle/caches/transforms-3/8a260700fd1172c57c135c83c4e687e6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/k.bitkov/.gradle/caches/transforms-3/8a260700fd1172c57c135c83c4e687e6/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/a39dccac9e061adc1a37dfa82cdc4809/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/a39dccac9e061adc1a37dfa82cdc4809/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/a39dccac9e061adc1a37dfa82cdc4809/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/a39dccac9e061adc1a37dfa82cdc4809/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/a39dccac9e061adc1a37dfa82cdc4809/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/a39dccac9e061adc1a37dfa82cdc4809/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/a39dccac9e061adc1a37dfa82cdc4809/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/71475ac55f7d9f50c8ba89a2942824c6/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/71475ac55f7d9f50c8ba89a2942824c6/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/k.bitkov/.gradle/caches/transforms-3/71475ac55f7d9f50c8ba89a2942824c6/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/k.bitkov/.gradle/caches/transforms-3/5232e8dfbfaf4230d9c8db74ae8f9c10/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/k.bitkov/.gradle/caches/transforms-3/5232e8dfbfaf4230d9c8db74ae8f9c10/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/k.bitkov/.gradle/caches/transforms-3/5232e8dfbfaf4230d9c8db74ae8f9c10/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#com.bravekitty.cyuri.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/k.bitkov/.gradle/caches/transforms-3/5232e8dfbfaf4230d9c8db74ae8f9c10/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/k.bitkov/.gradle/caches/transforms-3/5232e8dfbfaf4230d9c8db74ae8f9c10/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/k.bitkov/.gradle/caches/transforms-3/5232e8dfbfaf4230d9c8db74ae8f9c10/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/k.bitkov/.gradle/caches/transforms-3/5232e8dfbfaf4230d9c8db74ae8f9c10/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/k.bitkov/.gradle/caches/transforms-3/5232e8dfbfaf4230d9c8db74ae8f9c10/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+uses-permission#com.bravekitty.cyuri.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/k.bitkov/.gradle/caches/transforms-3/5232e8dfbfaf4230d9c8db74ae8f9c10/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/k.bitkov/.gradle/caches/transforms-3/5232e8dfbfaf4230d9c8db74ae8f9c10/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/e4d1598a96ae300811e6b99a408fde71/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/e4d1598a96ae300811e6b99a408fde71/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/e4d1598a96ae300811e6b99a408fde71/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/e4d1598a96ae300811e6b99a408fde71/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/e4d1598a96ae300811e6b99a408fde71/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/e4d1598a96ae300811e6b99a408fde71/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/e4d1598a96ae300811e6b99a408fde71/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/e4d1598a96ae300811e6b99a408fde71/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/e4d1598a96ae300811e6b99a408fde71/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/e4d1598a96ae300811e6b99a408fde71/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/e4d1598a96ae300811e6b99a408fde71/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/e4d1598a96ae300811e6b99a408fde71/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/e4d1598a96ae300811e6b99a408fde71/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/e4d1598a96ae300811e6b99a408fde71/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/e4d1598a96ae300811e6b99a408fde71/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/e4d1598a96ae300811e6b99a408fde71/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/e4d1598a96ae300811e6b99a408fde71/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/e4d1598a96ae300811e6b99a408fde71/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/e4d1598a96ae300811e6b99a408fde71/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/e4d1598a96ae300811e6b99a408fde71/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/k.bitkov/.gradle/caches/transforms-3/e4d1598a96ae300811e6b99a408fde71/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92

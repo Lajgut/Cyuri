@@ -17,9 +17,9 @@
    </BuildAction>
    <LaunchAction
       useCustomWorkingDirectory = "YES"
+      customWorkingDirectory = "/Users/k.bitkov/Developer/kmp/Cyuri"
       buildConfiguration = "Debug"
-      allowLocationSimulation = "YES"
-      customWorkingDirectory = "/Users/k.bitkov/Developer/kmp/Cyuri">
+      allowLocationSimulation = "YES">
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"

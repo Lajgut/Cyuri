@@ -12,6 +12,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import cyuri.composeapp.generated.resources.Res
+import cyuri.composeapp.generated.resources.category_mock_1
+import cyuri.composeapp.generated.resources.category_mock_2
+import cyuri.composeapp.generated.resources.home_title
+import org.jetbrains.compose.resources.ExperimentalResourceApi
+import org.jetbrains.compose.resources.stringResource
 import presentation.components.HeaderComponent
 import presentation.components.SpacerGrayDefault
 import presentation.components.home.AboutTextComponent
@@ -41,6 +47,7 @@ fun HomeScreen(
     }
 }
 
+@OptIn(ExperimentalResourceApi::class)
 @Composable
 fun MainContent(
     modifier: Modifier,
@@ -56,6 +63,7 @@ fun MainContent(
         Spacer(Modifier.height(40.dp))
         Text(
             modifier = modifier,
+            //text = stringResource(Res.string.home_title),
             text = "Доверьте ваши проблемы\nспециалисту",
             style = MaterialTheme.typography.h2,
             color = MaterialTheme.colors.primaryVariant,
@@ -115,6 +123,7 @@ fun SearchComponent(modifier: Modifier = Modifier) {
     }
 }
 
+@OptIn(ExperimentalResourceApi::class)
 @Composable
 private fun Caterories(modifier: Modifier = Modifier, onScreenChanged: (destination: Destinations) -> Unit) {
     val list = listOf(
@@ -130,10 +139,10 @@ private fun Caterories(modifier: Modifier = Modifier, onScreenChanged: (destinat
         modifier = modifier.fillMaxWidth(),
         horizontalArrangement = Arrangement.SpaceBetween,
     ) {
-        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[0], imgRes = "composeResources/drawable/category_mock_1.png")
-        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[1], imgRes = "composeResources/drawable/category_mock_2.png")
-        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[2], imgRes = "composeResources/drawable/category_mock_1.png")
-        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[3], imgRes = "composeResources/drawable/category_mock_2.png")
+        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[0], imgRes = Res.drawable.category_mock_1)
+        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[1], imgRes = Res.drawable.category_mock_2)
+        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[2], imgRes = Res.drawable.category_mock_1)
+        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[3], imgRes = Res.drawable.category_mock_2)
     }
 
     Spacer(Modifier.height(12.dp))
@@ -142,10 +151,10 @@ private fun Caterories(modifier: Modifier = Modifier, onScreenChanged: (destinat
         modifier = modifier.fillMaxWidth(),
         horizontalArrangement = Arrangement.SpaceBetween,
     ) {
-        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[3], imgRes = "composeResources/drawable/category_mock_1.png")
-        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[4], imgRes = "composeResources/drawable/category_mock_1.png")
-        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[2], imgRes = "composeResources/drawable/category_mock_2.png")
-        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[5], imgRes = "composeResources/drawable/category_mock_1.png")
+        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[3], imgRes = Res.drawable.category_mock_1)
+        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[4], imgRes = Res.drawable.category_mock_2)
+        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[2], imgRes = Res.drawable.category_mock_1)
+        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[5], imgRes = Res.drawable.category_mock_2)
     }
 }
 

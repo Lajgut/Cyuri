@@ -19,7 +19,7 @@ import org.jetbrains.compose.resources.painterResource
 fun MainCategoryComponent(
     modifier: Modifier = Modifier,
     title: String,
-    imgRes: String,
+    imgRes: DrawableResource,
 ) {
     Column(
         modifier = modifier
@@ -32,7 +32,7 @@ fun MainCategoryComponent(
                 .height(300.dp)
                 .clip(RoundedCornerShape(8.dp)),
             contentScale = ContentScale.FillBounds,
-            painter = painterResource(DrawableResource(imgRes)),
+            painter = painterResource(imgRes),
             contentDescription = null,
         )
 

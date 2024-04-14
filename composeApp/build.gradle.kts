@@ -49,12 +49,8 @@ kotlin {
             implementation(compose.foundation)
             implementation(compose.material)
             implementation(compose.ui)
-            @OptIn(ExperimentalComposeLibrary::class)
             implementation(compose.components.resources)
         }
-        /*jsMain.dependencies {
-            implementation("app.softwork:routing-compose:0.2.14-1.6.0-beta01")
-        }*/
     }
 }
 
