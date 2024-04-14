@@ -12,7 +12,10 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import org.jetbrains.compose.resources.DrawableResource
+import cyuri.composeapp.generated.resources.Res
+import cyuri.composeapp.generated.resources.ic_green_ok
+import cyuri.composeapp.generated.resources.ic_star
+import cyuri.composeapp.generated.resources.spicialist_photo_mock
 import org.jetbrains.compose.resources.ExperimentalResourceApi
 import org.jetbrains.compose.resources.painterResource
 import presentation.orders.SpecialistUiEntity
@@ -49,7 +52,7 @@ private fun MainInfoRow(specialistEntity: SpecialistUiEntity) {
                 .width(72.dp)
                 .clip(RoundedCornerShape(4.dp)),
             contentScale = ContentScale.Crop,
-            painter = painterResource(DrawableResource("composeResources/drawable/spicialist_photo_mock.jpg")),
+            painter = painterResource(Res.drawable.spicialist_photo_mock),
             contentDescription = null,
         )
 
@@ -93,7 +96,7 @@ private fun RatingRow(
     ) {
         Image(
             modifier = Modifier.size(16.dp),
-            painter = painterResource(DrawableResource("composeResources/drawable/ic_star.png")),
+            painter = painterResource(Res.drawable.ic_star),
             contentDescription = null,
         )
 
@@ -116,7 +119,7 @@ private fun UserCheckedRow(modifier: Modifier = Modifier) {
     ) {
         Image(
             modifier = Modifier.size(16.dp),
-            painter = painterResource(DrawableResource("composeResources/drawable/ic_green_ok.png")),
+            painter = painterResource(Res.drawable.ic_green_ok),
             contentDescription = null,
         )
 

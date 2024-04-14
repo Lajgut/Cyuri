@@ -14,7 +14,7 @@ import theme.AppTheme
 @Composable
 fun App() {
 
-    var destination by mutableStateOf<Destinations>(Destinations.Home)
+    var destination by mutableStateOf<Destinations>(Destinations.Order)
 
     val webModifier = Modifier
         .padding(start = 310.dp, end = 310.dp)
