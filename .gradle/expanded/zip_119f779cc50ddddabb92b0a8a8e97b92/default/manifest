@@ -1,0 +1,9 @@
+abi_version=1.8.0
+builtins_platform=WASM
+compiler_version=1.9.23
+depends=kotlin
+ir_signature_versions=1,2
+metadata_version=1.4.1
+serializedIrFileFingerprints=zifqogtxb951.nqck0re411jp 165d4rkosohy4.1h8h83usn4bcg 1j96p029xx2e1.1pw4otqfv906n
+serializedKlibFingerprint=1x9ou30284hai.lvfawuxz6u86
+unique_name=org.jetbrains.androidx.core\:core-bundle

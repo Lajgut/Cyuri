@@ -1,0 +1,9 @@
+abi_version=1.8.0
+builtins_platform=WASM
+compiler_version=1.9.23
+depends=org.jetbrains.androidx.navigation\:navigation-common org.jetbrains.androidx.lifecycle\:lifecycle-runtime org.jetbrains.androidx.lifecycle\:lifecycle-viewmodel-savedstate org.jetbrains.androidx.savedstate\:savedstate org.jetbrains.androidx.lifecycle\:lifecycle-common org.jetbrains.androidx.lifecycle\:lifecycle-viewmodel org.jetbrains.compose.annotation-internal\:annotation org.jetbrains.androidx.core\:core-bundle org.jetbrains.compose.collection-internal\:collection org.jetbrains.kotlinx\:kotlinx-coroutines-core kotlin org.jetbrains.kotlinx\:atomicfu
+ir_signature_versions=1,2
+metadata_version=1.4.1
+serializedIrFileFingerprints=30y2ziwq6qmga.16gw6uk0h72is yeb5t6hrybvx.1txl8z4xwmr70 36ivdbq20fbc6.32unvehrbfbzn 1qwajdya0kk13.2tt2fin3w5z4 25cqphz1lcncd.2yvuhhmufu9e8 t9415vbg2plk.gskyyez73rvx 357mtz68ta8cz.v7u1l1doomvz 1pmv4i0itlkxo.3lbswau1zyqna cknpc8kz937r.2h6s2r36u828v bgykwo66xipx.2x9ayu9owq5fx 1xz0404kogefv.1il7zhr4nsfie 1r1a9cd0nv5wl.2yj3kf9oebtnn 2a2e933njxdud.2s65005deheki 3nn0vsd57u4ja.1xvhgiimeemz5
+serializedKlibFingerprint=1nm7ieee734ak.hqcc7noxl20q
+unique_name=org.jetbrains.androidx.navigation\:navigation-runtime

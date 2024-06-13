@@ -12,12 +12,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import cyuri.composeapp.generated.resources.*
 import cyuri.composeapp.generated.resources.Res
 import cyuri.composeapp.generated.resources.category_mock_1
 import cyuri.composeapp.generated.resources.category_mock_2
-import cyuri.composeapp.generated.resources.home_title
 import org.jetbrains.compose.resources.ExperimentalResourceApi
 import org.jetbrains.compose.resources.stringResource
+import presentation.components.ButtonRedComponent
 import presentation.components.HeaderComponent
 import presentation.components.SpacerGrayDefault
 import presentation.components.home.AboutTextComponent
@@ -70,7 +71,7 @@ fun MainContent(
             fontWeight = FontWeight.Bold,
         )
         Spacer(Modifier.height(30.dp))
-        SearchComponent(modifier = modifier)
+        SearchComponent(modifier = modifier, onScreenChanged = onScreenChanged)
         Spacer(Modifier.height(40.dp))
         Caterories(modifier = modifier, onScreenChanged = onScreenChanged)
         Spacer(Modifier.height(30.dp))
@@ -78,8 +79,12 @@ fun MainContent(
     }
 }
 
+@OptIn(ExperimentalResourceApi::class)
 @Composable
-fun SearchComponent(modifier: Modifier = Modifier) {
+fun SearchComponent(
+    modifier: Modifier = Modifier,
+    onScreenChanged: (destination: Destinations) -> Unit,
+) {
     var text by remember { mutableStateOf("") }
 
     Row(
@@ -104,22 +109,13 @@ fun SearchComponent(modifier: Modifier = Modifier) {
             ),
         )
 
-        Button(
+        ButtonRedComponent(
             modifier = Modifier
                 .weight(1f)
                 .fillMaxHeight(),
-            shape = RoundedCornerShape(8.dp),
-            colors = ButtonDefaults.buttonColors(
-                backgroundColor = MaterialTheme.colors.secondary
-            ),
-            onClick = {},
-        ) {
-            Text(
-                text = "Поиск",
-                style = MaterialTheme.typography.h6,
-                color = MaterialTheme.colors.onPrimary,
-            )
-        }
+            onClick = { onScreenChanged(Destinations.Order) },
+            text = stringResource(Res.string.home_search),
+        )
     }
 }
 
@@ -139,10 +135,26 @@ private fun Caterories(modifier: Modifier = Modifier, onScreenChanged: (destinat
         modifier = modifier.fillMaxWidth(),
         horizontalArrangement = Arrangement.SpaceBetween,
     ) {
-        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[0], imgRes = Res.drawable.category_mock_1)
-        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[1], imgRes = Res.drawable.category_mock_2)
-        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[2], imgRes = Res.drawable.category_mock_1)
-        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[3], imgRes = Res.drawable.category_mock_2)
+        MainCategoryComponent(
+            modifier = Modifier.clickable { onScreenChanged(Destinations.Order) },
+            title = list[0],
+            imgRes = Res.drawable.category_mock_1
+        )
+        MainCategoryComponent(
+            modifier = Modifier.clickable { onScreenChanged(Destinations.Order) },
+            title = list[1],
+            imgRes = Res.drawable.category_mock_2
+        )
+        MainCategoryComponent(
+            modifier = Modifier.clickable { onScreenChanged(Destinations.Order) },
+            title = list[2],
+            imgRes = Res.drawable.category_mock_1
+        )
+        MainCategoryComponent(
+            modifier = Modifier.clickable { onScreenChanged(Destinations.Order) },
+            title = list[3],
+            imgRes = Res.drawable.category_mock_2
+        )
     }
 
     Spacer(Modifier.height(12.dp))
@@ -151,10 +163,26 @@ private fun Caterories(modifier: Modifier = Modifier, onScreenChanged: (destinat
         modifier = modifier.fillMaxWidth(),
         horizontalArrangement = Arrangement.SpaceBetween,
     ) {
-        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[3], imgRes = Res.drawable.category_mock_1)
-        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[4], imgRes = Res.drawable.category_mock_2)
-        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[2], imgRes = Res.drawable.category_mock_1)
-        MainCategoryComponent(modifier = Modifier.clickable { onScreenChanged(Destinations.Order) }, title = list[5], imgRes = Res.drawable.category_mock_2)
+        MainCategoryComponent(
+            modifier = Modifier.clickable { onScreenChanged(Destinations.Order) },
+            title = list[3],
+            imgRes = Res.drawable.category_mock_1
+        )
+        MainCategoryComponent(
+            modifier = Modifier.clickable { onScreenChanged(Destinations.Order) },
+            title = list[4],
+            imgRes = Res.drawable.category_mock_2
+        )
+        MainCategoryComponent(
+            modifier = Modifier.clickable { onScreenChanged(Destinations.Order) },
+            title = list[2],
+            imgRes = Res.drawable.category_mock_1
+        )
+        MainCategoryComponent(
+            modifier = Modifier.clickable { onScreenChanged(Destinations.Order) },
+            title = list[5],
+            imgRes = Res.drawable.category_mock_2
+        )
     }
 }
 

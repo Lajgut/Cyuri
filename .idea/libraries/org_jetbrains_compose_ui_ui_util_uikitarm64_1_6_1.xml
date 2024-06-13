@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="org.jetbrains.compose.ui:ui-util-uikitarm64:1.6.1" type="kotlin.native" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.compose.ui" artifactId="ui-util-uikitarm64" version="1.6.1" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui-util-uikitarm64/1.6.1/96ec4a7030768146f5c403ba99907861b632788c/ui-util.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui-util-uikitarm64/1.6.1/2dce80ce8e448fd012a4813d824adf15707a369f/ui-util-uikitarm64-1.6.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

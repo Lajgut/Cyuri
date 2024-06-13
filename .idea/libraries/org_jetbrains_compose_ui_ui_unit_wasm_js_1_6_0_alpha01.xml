@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="org.jetbrains.compose.ui:ui-unit-wasm-js:1.6.0-alpha01" type="kotlin.wasm" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.compose.ui" artifactId="ui-unit-wasm-js" version="1.6.0-alpha01" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui-unit-wasm-js/1.6.0-alpha01/8d1a753edab34668e9a5e480b49e5d4262a449a7/ui-unit-wasm-js-1.6.0-alpha01.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui-unit-wasm-js/1.6.0-alpha01/8b3c27306f1d0f8f308893f154cdcb4cba0065de/ui-unit-wasm-js-1.6.0-alpha01-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

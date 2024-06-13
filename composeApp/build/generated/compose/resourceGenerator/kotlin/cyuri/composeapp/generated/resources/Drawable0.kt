@@ -36,7 +36,7 @@ private fun init_account_photo_mock(): DrawableResource =
     org.jetbrains.compose.resources.DrawableResource(
   "drawable:account_photo_mock",
     setOf(
-      org.jetbrains.compose.resources.ResourceItem(setOf(), "drawable/account_photo_mock.jpg"),
+      org.jetbrains.compose.resources.ResourceItem(setOf(), "drawable/account_photo_mock.JPG"),
     )
 )
 

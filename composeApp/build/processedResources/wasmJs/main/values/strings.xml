@@ -13,7 +13,18 @@
 
     <!--Orders screen-->
     <string name="orders_hint">Опишите специалисту детали заказа</string>
+    <string name="orders_send_request">Отправить</string>
+    <string name="orders_send_order">Разместить заказ</string>
+    <string name="orders_choose_specialist">Выбор специалиста</string>
+    <string name="orders_describe_task">Что нужно сделать?</string>
+    <string name="orders_you_look">Как вас видит специалист</string>
+    <string name="orders_specialist_in_category">Все специалисты в категории %1$s</string>
+    <string name="orders_describe_order">Опишите специалисту, детали заказа</string>
+    <!---->
 
+    <!--OrdersHistory screen-->
+    <string name="orders_history_title">Ваши заказы</string>
+    <string name="orders_history_create">Создать заказ</string>
     <!---->
 
     <string name="multi_line">Lorem ipsum dolor sit amet,

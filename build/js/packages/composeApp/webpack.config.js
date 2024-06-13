@@ -36,7 +36,7 @@ config.ignoreWarnings = [/Failed to parse source map/]
     
 // dev server
 config.devServer = {
-  "open": true,
+  "open": false,
   "static": [
     "kotlin",
     "../../../../composeApp/build/processedResources/wasmJs/main"

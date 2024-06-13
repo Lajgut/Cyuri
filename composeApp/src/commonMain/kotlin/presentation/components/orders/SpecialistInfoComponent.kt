@@ -75,6 +75,13 @@ private fun MainInfoRow(specialistEntity: SpecialistUiEntity) {
                 )
             }
 
+            Text(
+                text = specialistEntity.phoneNumber,
+                style = MaterialTheme.typography.subtitle1,
+                color = MaterialTheme.colors.primary,
+                fontWeight = FontWeight.Bold,
+            )
+
             RatingRow(
                 modifier = Modifier.padding(bottom = 2.dp),
                 rating = specialistEntity.rating,

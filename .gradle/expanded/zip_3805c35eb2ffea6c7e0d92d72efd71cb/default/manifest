@@ -1,0 +1,10 @@
+abi_version=1.8.0
+builtins_platform=WASM
+compiler_version=1.9.23
+depends=org.jetbrains.androidx.lifecycle\:lifecycle-viewmodel-savedstate org.jetbrains.androidx.savedstate\:savedstate org.jetbrains.androidx.lifecycle\:lifecycle-common org.jetbrains.androidx.lifecycle\:lifecycle-viewmodel org.jetbrains.compose.ui\:ui org.jetbrains.compose.runtime\:runtime-saveable org.jetbrains.compose.runtime\:runtime org.jetbrains.androidx.core\:core-bundle org.jetbrains.compose.annotation-internal\:annotation org.jetbrains.kotlinx\:kotlinx-coroutines-core org.jetbrains.kotlinx\:atomicfu org.jetbrains.compose.ui\:ui-text org.jetbrains.compose.ui\:ui-graphics org.jetbrains.compose.ui\:ui-unit org.jetbrains.compose.ui\:ui-geometry org.jetbrains.compose.ui\:ui-util kotlin org.jetbrains.skiko\:skiko
+ir_signature_versions=1,2
+jsOutputName=compose-multiplatform-core-lifecycle-lifecycle-viewmodel-compose-wasm-js
+metadata_version=1.4.1
+serializedIrFileFingerprints=2315mpfwuttid.1eqdtnwtdwu6d 1etswc3y5z0of.20611i7t7t7f5 28wwaz5tkmj46.11y6o6m31k85b 3tqevq4shnzh7.3qfdrxa5cdjqb 1kclqd6oxc824.1rmkcnsj4y22g
+serializedKlibFingerprint=z3xh9det9riq.3jgo28d3ecp77
+unique_name=org.jetbrains.androidx.lifecycle\:lifecycle-viewmodel-compose

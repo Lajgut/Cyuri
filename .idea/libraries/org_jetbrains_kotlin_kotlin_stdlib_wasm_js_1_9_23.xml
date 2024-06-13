@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="org.jetbrains.kotlin:kotlin-stdlib-wasm-js:1.9.23" type="kotlin.wasm" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.kotlin" artifactId="kotlin-stdlib-wasm-js" version="1.9.23" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-wasm-js/1.9.23/394404330a136320bc5aec771fd2c5906cd90056/kotlin-stdlib-wasm-js-1.9.23.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-wasm-js/1.9.23/b90e0f89ee02246b103270d379883609534dc490/kotlin-stdlib-wasm-js-1.9.23-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

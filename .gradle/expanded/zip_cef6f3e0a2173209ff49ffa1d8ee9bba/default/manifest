@@ -1,0 +1,9 @@
+abi_version=1.8.0
+builtins_platform=WASM
+compiler_version=1.9.23
+depends=org.jetbrains.androidx.lifecycle\:lifecycle-runtime org.jetbrains.androidx.lifecycle\:lifecycle-viewmodel-savedstate org.jetbrains.androidx.savedstate\:savedstate org.jetbrains.androidx.lifecycle\:lifecycle-common org.jetbrains.androidx.lifecycle\:lifecycle-viewmodel org.jetbrains.compose.annotation-internal\:annotation org.jetbrains.compose.collection-internal\:collection org.jetbrains.androidx.core\:core-bundle org.jetbrains.kotlinx\:kotlinx-coroutines-core org.jetbrains.kotlinx\:atomicfu kotlin
+ir_signature_versions=1,2
+metadata_version=1.4.1
+serializedIrFileFingerprints=sxvyldlr2x9t.pzjowfpbot8o gwse1ludsed1.308uqna6o3m7m 1lui3rysdspdx.3fgkli70p047i 20yr7bpmm85th.3tar8m6qa3ulo 2yjqg1jyt4fgs.9j54pogwa5sg 1rbkrirgexbav.2z53g5sgku5kb bklhheuh0m77.vs5q0v1so4d7 1p3gasmsur8w8.q07tj9atbiff 9eyrmfjyyjo6.jpsl2pibugv4 ab8dmf3ox1oo.3g174tqqqbakw tnnfi4mm2qa.2oek4vtvysm1a 7lh4irv9ogar.3svulhskhm921 14xyoidg37qi0.35m65rjubug79 35e5d1u9gdaii.2609rd27inheh 1cvxbuo5a6nrm.3iljia3a3zsfn aacvaokgjqih.1k5uiamlgbd96 27sqif3l4yfzv.3ddjw5vycg5xf 1wkna5h8zui0m.3r1mu8bidpitc 3nvqfthan9eq8.335gpq85k5ifp 24f8ff5m630sk.7zrg5yzya5he 2f0bu0ptsqp8h.334ls0izdtasu 2hozflfhoj6b3.3fjmde3oxslzx 3h4u0g24j6mk8.2fj5kvuw5g34i 1howurhyf3tpk.353zziv39bott h9eabtjfo57d.tyu4gb7zqa48 38b82cke1ozvh.3sswflfqabztw 2iohf1i2xjjn.15iqden4laivl 1hv1dlqjm6w5b.9gf1a3quspxt 373e5c1dd0k39.1gcoxqqds46xp 1df5dvrdio3tt.qm4si9fgcqko 3975e4pr85z7v.3sp388zqd694z 3otkaps9zsdaz.33p8e4a680lxl 6t5mkbozzhjk.3b4vyrrfak4y0 1c3lze8edze7x.2svyux77dxioo
+serializedKlibFingerprint=2yajn38nwhtc7.3lwc8x8a14cto
+unique_name=org.jetbrains.androidx.navigation\:navigation-common

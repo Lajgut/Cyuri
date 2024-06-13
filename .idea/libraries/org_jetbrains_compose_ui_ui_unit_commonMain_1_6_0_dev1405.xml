@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="org.jetbrains.compose.ui:ui-unit:commonMain:1.6.0-dev1405" type="kotlin.common" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.compose.ui" artifactId="ui-unit" version="1.6.0-dev1405" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/kotlin/kotlinTransformedMetadataLibraries/org.jetbrains.compose.ui-ui-unit-1.6.0-dev1405-commonMain-27EaVA.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui-unit/1.6.0-dev1405/8b223d42c9bac47cdbecaf5c39da6d01160a01a2/ui-unit-1.6.0-dev1405-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

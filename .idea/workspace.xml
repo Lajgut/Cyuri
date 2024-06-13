@@ -11,55 +11,11 @@
       <change beforePath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/packages/composeApp/kotlin/composeApp.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/packages/composeApp/kotlin/composeApp.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/packages/composeApp/kotlin/composeApp.wasm" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/packages/composeApp/kotlin/composeApp.wasm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/classes/kotlin/wasmJs/main/default/ir/bodies.knb" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/classes/kotlin/wasmJs/main/default/ir/bodies.knb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/classes/kotlin/wasmJs/main/default/ir/debugInfo.knd" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/classes/kotlin/wasmJs/main/default/ir/debugInfo.knd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/classes/kotlin/wasmJs/main/default/ir/files.knf" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/classes/kotlin/wasmJs/main/default/ir/files.knf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/classes/kotlin/wasmJs/main/default/ir/irDeclarations.knd" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/classes/kotlin/wasmJs/main/default/ir/irDeclarations.knd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/classes/kotlin/wasmJs/main/default/ir/signatures.knt" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/classes/kotlin/wasmJs/main/default/ir/signatures.knt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/classes/kotlin/wasmJs/main/default/ir/strings.knt" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/classes/kotlin/wasmJs/main/default/ir/strings.knt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/classes/kotlin/wasmJs/main/default/ir/types.knt" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/classes/kotlin/wasmJs/main/default/ir/types.knt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/classes/kotlin/wasmJs/main/default/manifest" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/classes/kotlin/wasmJs/main/default/manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/compileSync/wasmJs/main/developmentExecutable/kotlin/composeApp.map" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/compileSync/wasmJs/main/developmentExecutable/kotlin/composeApp.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/compileSync/wasmJs/main/developmentExecutable/kotlin/composeApp.wasm" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/compileSync/wasmJs/main/developmentExecutable/kotlin/composeApp.wasm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/kotlin/sessions/kotlin-compiler-324505667644733955.salive" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composeApp/build/generated/compose/resourceGenerator/kotlin/cyuri/composeapp/generated/resources/Drawable0.kt" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/generated/compose/resourceGenerator/kotlin/cyuri/composeapp/generated/resources/Drawable0.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/class-attributes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/class-attributes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/class-attributes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/class-attributes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/class-fq-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/class-fq-name-to-source.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/ir-translation-result.tab" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/ir-translation-result.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/ir-translation-result.tab.values" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/ir-translation-result.tab.values" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/ir-translation-result.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/ir-translation-result.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/ir-translation-result.tab.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/ir-translation-result.tab.values.s" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/source-to-classes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/source-to-classes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/translation-result.tab" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/translation-result.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/translation-result.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/translation-result.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/counters.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/file-to-id.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/file-to-id.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/file-to-id.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/id-to-file.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/id-to-file.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/id-to-file.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/id-to-file.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/id-to-file.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/id-to-file.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/id-to-file.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/id-to-file.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/id-to-file.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/id-to-file.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/lookups.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/lookups.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/lookups.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/lookups.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/lookups.tab.values" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/lookups.tab.values" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/lookups.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/lookups.tab.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/lookups.tab.values.s" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/lookups.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/cacheable/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/local-state/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/build/kotlin/compileKotlinWasmJs/local-state/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/App.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/presentation/components/UserInfoComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/presentation/components/UserInfoComponent.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/presentation/components/orders/SpecialistInfoComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/composeApp/src/commonMain/kotlin/presentation/components/orders/SpecialistInfoComponent.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,25 +69,25 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2f350UO8ecvnMDHbPvPVvxcC4if" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "external.system.has.shared.sources": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/k.bitkov/Developer/kmp/Cyuri"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;external.system.has.shared.sources&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/k.bitkov/Developer/kmp/Cyuri&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Android App.composeApp">
     <configuration name="composeApp" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="Cyuri.composeApp.main" />

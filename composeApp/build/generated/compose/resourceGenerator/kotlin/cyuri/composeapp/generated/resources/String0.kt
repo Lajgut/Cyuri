@@ -38,8 +38,35 @@ private object String0 {
   public val multi_line: StringResource by 
       lazy { init_multi_line() }
 
+  public val orders_choose_specialist: StringResource by 
+      lazy { init_orders_choose_specialist() }
+
+  public val orders_describe_order: StringResource by 
+      lazy { init_orders_describe_order() }
+
+  public val orders_describe_task: StringResource by 
+      lazy { init_orders_describe_task() }
+
   public val orders_hint: StringResource by 
       lazy { init_orders_hint() }
+
+  public val orders_history_create: StringResource by 
+      lazy { init_orders_history_create() }
+
+  public val orders_history_title: StringResource by 
+      lazy { init_orders_history_title() }
+
+  public val orders_send_order: StringResource by 
+      lazy { init_orders_send_order() }
+
+  public val orders_send_request: StringResource by 
+      lazy { init_orders_send_request() }
+
+  public val orders_specialist_in_category: StringResource by 
+      lazy { init_orders_specialist_in_category() }
+
+  public val orders_you_look: StringResource by 
+      lazy { init_orders_you_look() }
 
   public val str_arr: StringResource by 
       lazy { init_str_arr() }
@@ -170,12 +197,128 @@ private fun init_multi_line(): StringResource = org.jetbrains.compose.resources.
 )
 
 @ExperimentalResourceApi
+internal val Res.string.orders_choose_specialist: StringResource
+  get() = String0.orders_choose_specialist
+
+@ExperimentalResourceApi
+private fun init_orders_choose_specialist(): StringResource =
+    org.jetbrains.compose.resources.StringResource(
+  "string:orders_choose_specialist", "orders_choose_specialist",
+    setOf(
+      org.jetbrains.compose.resources.ResourceItem(setOf(), "values/strings.xml"),
+    )
+)
+
+@ExperimentalResourceApi
+internal val Res.string.orders_describe_order: StringResource
+  get() = String0.orders_describe_order
+
+@ExperimentalResourceApi
+private fun init_orders_describe_order(): StringResource =
+    org.jetbrains.compose.resources.StringResource(
+  "string:orders_describe_order", "orders_describe_order",
+    setOf(
+      org.jetbrains.compose.resources.ResourceItem(setOf(), "values/strings.xml"),
+    )
+)
+
+@ExperimentalResourceApi
+internal val Res.string.orders_describe_task: StringResource
+  get() = String0.orders_describe_task
+
+@ExperimentalResourceApi
+private fun init_orders_describe_task(): StringResource =
+    org.jetbrains.compose.resources.StringResource(
+  "string:orders_describe_task", "orders_describe_task",
+    setOf(
+      org.jetbrains.compose.resources.ResourceItem(setOf(), "values/strings.xml"),
+    )
+)
+
+@ExperimentalResourceApi
 internal val Res.string.orders_hint: StringResource
   get() = String0.orders_hint
 
 @ExperimentalResourceApi
 private fun init_orders_hint(): StringResource = org.jetbrains.compose.resources.StringResource(
   "string:orders_hint", "orders_hint",
+    setOf(
+      org.jetbrains.compose.resources.ResourceItem(setOf(), "values/strings.xml"),
+    )
+)
+
+@ExperimentalResourceApi
+internal val Res.string.orders_history_create: StringResource
+  get() = String0.orders_history_create
+
+@ExperimentalResourceApi
+private fun init_orders_history_create(): StringResource =
+    org.jetbrains.compose.resources.StringResource(
+  "string:orders_history_create", "orders_history_create",
+    setOf(
+      org.jetbrains.compose.resources.ResourceItem(setOf(), "values/strings.xml"),
+    )
+)
+
+@ExperimentalResourceApi
+internal val Res.string.orders_history_title: StringResource
+  get() = String0.orders_history_title
+
+@ExperimentalResourceApi
+private fun init_orders_history_title(): StringResource =
+    org.jetbrains.compose.resources.StringResource(
+  "string:orders_history_title", "orders_history_title",
+    setOf(
+      org.jetbrains.compose.resources.ResourceItem(setOf(), "values/strings.xml"),
+    )
+)
+
+@ExperimentalResourceApi
+internal val Res.string.orders_send_order: StringResource
+  get() = String0.orders_send_order
+
+@ExperimentalResourceApi
+private fun init_orders_send_order(): StringResource =
+    org.jetbrains.compose.resources.StringResource(
+  "string:orders_send_order", "orders_send_order",
+    setOf(
+      org.jetbrains.compose.resources.ResourceItem(setOf(), "values/strings.xml"),
+    )
+)
+
+@ExperimentalResourceApi
+internal val Res.string.orders_send_request: StringResource
+  get() = String0.orders_send_request
+
+@ExperimentalResourceApi
+private fun init_orders_send_request(): StringResource =
+    org.jetbrains.compose.resources.StringResource(
+  "string:orders_send_request", "orders_send_request",
+    setOf(
+      org.jetbrains.compose.resources.ResourceItem(setOf(), "values/strings.xml"),
+    )
+)
+
+@ExperimentalResourceApi
+internal val Res.string.orders_specialist_in_category: StringResource
+  get() = String0.orders_specialist_in_category
+
+@ExperimentalResourceApi
+private fun init_orders_specialist_in_category(): StringResource =
+    org.jetbrains.compose.resources.StringResource(
+  "string:orders_specialist_in_category", "orders_specialist_in_category",
+    setOf(
+      org.jetbrains.compose.resources.ResourceItem(setOf(), "values/strings.xml"),
+    )
+)
+
+@ExperimentalResourceApi
+internal val Res.string.orders_you_look: StringResource
+  get() = String0.orders_you_look
+
+@ExperimentalResourceApi
+private fun init_orders_you_look(): StringResource = org.jetbrains.compose.resources.StringResource(
+  "string:orders_you_look", "orders_you_look",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(), "values/strings.xml"),
     )

@@ -1,0 +1,10 @@
+abi_version=1.8.0
+builtins_platform=WASM
+compiler_version=1.9.23
+depends=org.jetbrains.androidx.lifecycle\:lifecycle-viewmodel-compose org.jetbrains.androidx.navigation\:navigation-runtime org.jetbrains.androidx.navigation\:navigation-common org.jetbrains.androidx.lifecycle\:lifecycle-viewmodel-savedstate org.jetbrains.androidx.savedstate\:savedstate org.jetbrains.androidx.core\:core-bundle org.jetbrains.compose.animation\:animation org.jetbrains.compose.foundation\:foundation-layout org.jetbrains.compose.ui\:ui org.jetbrains.compose.runtime\:runtime-saveable org.jetbrains.compose.runtime\:runtime org.jetbrains.androidx.lifecycle\:lifecycle-runtime org.jetbrains.androidx.lifecycle\:lifecycle-common org.jetbrains.androidx.lifecycle\:lifecycle-viewmodel org.jetbrains.compose.animation\:animation-core org.jetbrains.compose.annotation-internal\:annotation org.jetbrains.compose.collection-internal\:collection org.jetbrains.kotlinx\:kotlinx-coroutines-core org.jetbrains.kotlinx\:atomicfu org.jetbrains.compose.ui\:ui-text org.jetbrains.compose.ui\:ui-graphics org.jetbrains.compose.ui\:ui-unit org.jetbrains.compose.ui\:ui-geometry org.jetbrains.compose.ui\:ui-util kotlin org.jetbrains.skiko\:skiko
+ir_signature_versions=1,2
+jsOutputName=compose-multiplatform-core-navigation-navigation-compose-wasm-js
+metadata_version=1.4.1
+serializedIrFileFingerprints=38yt8lwgunhaq.3pm3owsmpfbjq 3cap9u477wdpm.2w3b05ucdfm3a e8w0alv6owm5.2on6jjdjo4dxy 3pzma1wbybf9o.3gep250ik4qmn 1ftjtqh6uwx4z.3oehkp9oln6va 3mrl0mh0tjezj.3ov5wwkw4t6wn 2o7oq9nunjseb.2znanxtczwj6k udslj64nl0e5.3s8v3obv9kgqe 181ahktkclzfb.1plerlml23hct 2r6b15uzn60x.34pbj1k8xn0tl tyhldtejnbfb.1exymah7cdwbs 30evf4nc9a054.y3y4204rij4z 31tcm2kvk6uh9.1ed5v932jyefd 3clsutwaqacym.2yragy1eqjdpz 196nbf0zl753w.2zdgp8t2hjhhb
+serializedKlibFingerprint=2le30mgwmetru.2rqjy9rrzfnp7
+unique_name=org.jetbrains.androidx.navigation\:navigation-compose
